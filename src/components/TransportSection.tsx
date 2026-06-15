@@ -89,6 +89,32 @@ export default function TransportSection() {
           ))}
         </div>
 
+        {/* Popular Routes */}
+        {t.raw('routesTitle') && (
+          <div className="mt-8 pt-8" style={{ borderTop: '1px solid var(--border-color)' }}>
+            <h3 className="text-xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>
+              {t('routesTitle')}
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {[1, 2, 3].map((num) => (
+                <div key={num} className="rounded-xl p-5" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm text-white" style={{ background: 'var(--accent)' }}>
+                      {num}
+                    </div>
+                    <h4 className="font-medium" style={{ color: 'var(--text-primary)' }}>
+                      {t(`route${num}` as any)}
+                    </h4>
+                  </div>
+                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                    {t(`route${num}Desc` as any)}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Travel Tips */}
         <div
           className="mt-8 rounded-xl p-6 flex items-start gap-4"

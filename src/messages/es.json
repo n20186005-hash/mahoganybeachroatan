@@ -94,7 +94,11 @@
     "address": "Dirección",
     "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
     "plusCode": "Código Plus",
-    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras"
+    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras",
+    "alias": "Alias",
+    "aliasValue": "Isla Tropicale",
+    "tipLabel": "Nota:",
+    "addressTip": "En Google Maps y otras aplicaciones de navegación, la dirección de la terminal puede aparecer como Coxen Hole, pero su ubicación real está en Dixon Cove. Tenga cuidado de no confundirlo con el otro puerto de cruceros en el centro de Coxen Hole."
   },
   "hours": {
     "title": "Horarios de Apertura",
@@ -136,7 +140,14 @@
     "cycling": "Otros Medios",
     "cyclingDesc": "Los taxis y taxis acuáticos se utilizan comúnmente para moverse por la isla.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "Mahogany Bay Cruise Terminal es la puerta perfecta para explorar Roatán y las Islas de la Bahía."
+    "tipsDesc": "Mahogany Bay Cruise Terminal es la puerta perfecta para explorar Roatán y las Islas de la Bahía.",
+    "routesTitle": "Rutas Populares",
+    "route1": "Playa West Bay",
+    "route1Desc": "A unos 30-40 minutos en autobús o taxi. Esta es la playa más popular de la isla, perfecta para hacer snorkel y relajarse.",
+    "route2": "West End",
+    "route2Desc": "A unos 25-30 minutos en coche. Un gran lugar para experimentar la vida local de la isla con muchos restaurantes, tiendas de buceo y bares.",
+    "route3": "French Key / Centro de Perezosos",
+    "route3Desc": "A unos 15-20 minutos en coche. Acércate a la vida silvestre nativa de Honduras, como perezosos, monos y guacamayos."
   },
   "gallery": {
     "title": "Fotos Impresionantes",

@@ -94,7 +94,11 @@
     "address": "Address",
     "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
     "plusCode": "Plus Code",
-    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras"
+    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras",
+    "alias": "Alias",
+    "aliasValue": "Isla Tropicale",
+    "tipLabel": "Note:",
+    "addressTip": "On Google Maps and other navigation apps, the terminal's address may appear as Coxen Hole, but its actual location is in Dixon Cove. Please be careful not to confuse it with the other cruise port in the center of Coxen Hole."
   },
   "hours": {
     "title": "Operating Hours",
@@ -136,7 +140,14 @@
     "cycling": "Other Means",
     "cyclingDesc": "Taxis and water taxis are commonly used for getting around the island.",
     "tips": "Travel Tips",
-    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Roatán."
+    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Roatán.",
+    "routesTitle": "Popular Routes",
+    "route1": "West Bay Beach",
+    "route1Desc": "About 30-40 minutes by shuttle or taxi. This is the most popular beach on the island, perfect for snorkeling and relaxing.",
+    "route2": "West End",
+    "route2Desc": "About 25-30 minutes drive. A great place to experience local island life with many restaurants, dive shops, and bars.",
+    "route3": "French Key / Sloth Hangout",
+    "route3Desc": "About 15-20 minutes drive. Get up close with Honduran native wildlife like sloths, monkeys, and macaws."
   },
   "gallery": {
     "title": "Stunning Photos",

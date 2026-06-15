@@ -94,7 +94,11 @@
     "address": "地址",
     "addressValue": "8GG3+W27, Dixon Cove, Roatán, 洪都拉斯",
     "plusCode": "Plus 代码",
-    "plusCodeValue": "8GG3+W27 迪克森湾 (Dixon Cove), 洪都拉斯罗阿坦 (Roatán)"
+    "plusCodeValue": "8GG3+W27 迪克森湾 (Dixon Cove), 洪都拉斯罗阿坦 (Roatán)",
+    "alias": "别称",
+    "aliasValue": "Isla Tropicale",
+    "tipLabel": "提示：",
+    "addressTip": "在 Google 地图等导航软件上，该码头的地址可能会显示为考克斯霍尔 (Coxen Hole)，但其实际地理位置位于迪克森湾 (Dixon Cove)，请注意不要与考克斯霍尔镇中心的另一个邮轮港口混淆。"
   },
   "hours": {
     "title": "开放时间",
@@ -136,7 +140,14 @@
     "cycling": "其他方式",
     "cyclingDesc": "出租车和水上出租车是岛上常用的交通方式。",
     "tips": "出行建议",
-    "tipsDesc": "Mahogany Bay 邮轮码头是探索罗阿坦岛和海湾群岛的完美门户。"
+    "tipsDesc": "Mahogany Bay 邮轮码头是探索罗阿坦岛和海湾群岛的完美门户。",
+    "routesTitle": "热门景点路线",
+    "route1": "西湾海滩 (West Bay Beach)",
+    "route1Desc": "乘坐班车或出租车约需 30-40 分钟。这是岛上最受欢迎的海滩，适合浮潜和放松。",
+    "route2": "西区 (West End)",
+    "route2Desc": "车程约 25-30 分钟。这里有许多餐厅、潜水店和酒吧，体验当地岛屿生活的绝佳去处。",
+    "route3": "法国礁 (French Key) / 树懒繁育中心",
+    "route3Desc": "车程约 15-20 分钟。近距离接触树懒、猴子和金刚鹦鹉等洪都拉斯本土野生动物。"
   },
   "gallery": {
     "title": "精彩照片",
@@ -198,7 +209,7 @@
         "name": "James Wilson",
         "date": "2个月前",
         "rating": 4,
-        "text": "不错的设施， amenities 很好。前往海滩的班车服务很方便。我们游览期间天气完美。"
+        "text": "不错的设施，设施很好。前往海滩的班车服务很方便。我们游览期间天气完美。"
       },
       {
         "name": "Maria Santos",
