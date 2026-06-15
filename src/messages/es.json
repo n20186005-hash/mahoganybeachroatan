@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Mahogany Bay Cruise Terminal | Terminal de Cruceros",
-    "description": "Explora la Terminal de Cruceros Mahogany Bay en Coxen Hole, Islas de la Bahía, Honduras. Una terminal de cruceros moderna que sirve a la hermosa costa caribeña."
+    "description": "Explora la Terminal de Cruceros Mahogany Bay en Dixon Cove, Islas de la Bahía, Honduras. Una terminal de cruceros moderna que sirve a la hermosa costa caribeña."
   },
   "header": {
     "home": "Inicio",
     "gallery": "Galería",
-    "reviews": "Resenas",
+    "reviews": "Reseñas",
     "map": "Mapa",
     "backToHome": "Volver al Inicio"
   },
@@ -20,7 +20,7 @@
   },
   "intro": {
     "title": "Explora Mahogany Bay Cruise Terminal",
-    "description": "Mahogany Bay Cruise Terminal se encuentra en Coxen Hole, Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
+    "description": "Mahogany Bay Cruise Terminal se encuentra en Dixon Cove, Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
@@ -34,9 +34,11 @@
       "title": "Destacados",
       "items": [
         "Instalaciones Modernas: Terminal de cruceros bien equipada con tiendas, restaurantes y servicios para pasajeros.",
-        "Ubicación Privilegiada: Situada en Coxen Hole, la puerta principal a la isla de Roatán.",
+        "Ubicación Privilegiada: Situada en Dixon Cove, la puerta principal a la isla de Roatán.",
         "Acceso al Caribe: Punto de partida perfecto para explorar las hermosas playas caribeñas y arrecifes de coral.",
-        "Servicios Turísticos: Mostrador de información y arreglos turísticos disponibles para los visitantes."
+        "Servicios Turísticos: Mostrador de información y arreglos turísticos disponibles para los visitantes.",
+        "Exclusivo de Carnival Corporation: Un puerto privado y exclusivo construido y administrado por Carnival Corporation, que sirve principalmente a sus marcas de cruceros.",
+        "Magical Flying Beach Chair (Telesilla): Un telesilla único que transporta a los pasajeros directamente desde la zona de compras hasta la exclusiva Mahogany Beach."
       ]
     }
   },
@@ -45,6 +47,7 @@
     "overview": "Descubre la ruta ideal para explorar Mahogany Bay Cruise Terminal y experimentar la belleza de la costa caribeña.",
     "steps": [
       "Llegue a Mahogany Bay Cruise Terminal y familiarícese con las instalaciones y el diseño.",
+      "Tome el Magical Flying Beach Chair (telesilla) hasta la exclusiva Mahogany Beach y disfrute del sol caribeño.",
       "Visite el mostrador de información para obtener mapas y conocer sobre atracciones locales y opciones turísticas.",
       "Tome un transporte o taxi para explorar las playas y arrecifes de coral cercanos de Roatán.",
       "Regrese a la terminal para comprar recuerdos y disfrutar de la cocina local antes de la salida."
@@ -86,12 +89,12 @@
     "country": "País",
     "countryValue": "Honduras",
     "city": "Ciudad",
-    "cityValue": "Coxen Hole, Islas de la Bahía",
+    "cityValue": "Dixon Cove, Roatán",
     "googleRating": "Calificación de Google",
     "address": "Dirección",
-    "addressValue": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
     "plusCode": "Código Plus",
-    "plusCodeValue": "8GG3+W27 Coxen Hole, Islas de la Bahía, Honduras"
+    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras"
   },
   "hours": {
     "title": "Horarios de Apertura",
@@ -125,9 +128,9 @@
     "airport": "Desde el Aeropuerto",
     "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional Juan Manuel Gálvez (RTB). Corta distancia a la terminal de cruceros.",
     "selfDrive": "En Coche",
-    "selfDriveDesc": "La terminal está situada en Coxen Hole. Use navegación y siga los letreros hasta el puerto de cruceros.",
+    "selfDriveDesc": "La terminal está situada en Dixon Cove. Use navegación y siga los letreros hasta el puerto de cruceros.",
     "bus": "Transporte Público",
-    "busDesc": "Hay autobuses locales y taxis disponibles desde Coxen Hole hasta el área de la terminal.",
+    "busDesc": "Hay autobuses locales y taxis disponibles desde Dixon Cove hasta el área de la terminal.",
     "intercity": "Transporte del Crucero",
     "intercityDesc": "La mayoría de las líneas de cruceros proporcionan servicio de transporte desde la terminal hasta atracciones populares.",
     "cycling": "Otros Medios",
@@ -163,9 +166,9 @@
     "showAllPhotos": "Mostrar Todas las Fotos"
   },
   "reviews": {
-    "title": "Resenas de Visitantes",
-    "declaration": "La información de las resenas se puede ver a través de Google Maps (enlace externo).",
-    "moreReviews": "Ver Más Resenas en Google Maps",
+    "title": "Reseñas de Visitantes",
+    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Reseñas en Google Maps",
     "items": [
       {
         "name": "Michael Thompson",
@@ -219,7 +222,7 @@
   },
   "mapSection": {
     "title": "Ubicación y Mapa",
-    "subtitle": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "subtitle": "8GG3+W27, Dixon Cove, Bay Islands, Honduras",
     "openMaps": "Ver en Google Maps"
   },
   "footer": {
@@ -352,7 +355,7 @@
   },
   "officialManagement": {
     "title": "Acerca de Mahogany Bay Cruise Terminal",
-    "text": "Mahogany Bay Cruise Terminal es una instalación de cruceros moderna en Coxen Hole, Islas de la Bahía, Honduras, que sirve como puerta de acceso a la hermosa costa caribeña y la isla de Roatán."
+    "text": "Mahogany Bay Cruise Terminal es una instalación de cruceros moderna en Dixon Cove, Roatán, Honduras, propiedad y administrada por Carnival Corporation, que sirve como puerta de acceso privada y exclusiva a la hermosa costa caribeña y la isla de Roatán."
   },
   "historyTimeline": {
     "title": "Cronología Histórica",
@@ -379,7 +382,7 @@
         "year": "Visión Futura",
         "title": "Visión Futura: Turismo Sostenible",
         "plaque": "Sostenibilidad (Ecoturismo)",
-        "description": "Mirando hacia el futuro, la terminal tiene como objetivo promover prácticas de turismo sostenible mientras mantiene su papel como un destino premier de cruceros en el Caribe, equilibrando el crecimiento con la protección ambiental."
+        "description": "Mirando hacia el futuro, la terminal tiene como objetivo promover prácticas de turismo sostenible mientras mantiene su papel como un destino premier de cruceros en el Caribe, equilibrando el crecimiento con la protección ambiental. Carnival Corporation ha anunciado una actualización de marca a 'Isla Tropicale', agregando piscinas, clubes de playa y bares en la piscina."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",

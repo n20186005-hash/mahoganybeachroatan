@@ -15,7 +15,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  const baseUrl = 'https://losdostemplos.com';
+  const baseUrl = 'https://mahoganybeachroatan.com';
 
   const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
@@ -47,7 +47,7 @@ export async function generateMetadata({
       title: messages.meta.title,
       description: messages.meta.description,
       url: selfUrl,
-      siteName: "Los Dos Templos",
+      siteName: "Mahogany Bay Cruise Terminal",
       locale: localeMap[locale] || 'zh_CN',
       type: 'website',
     },

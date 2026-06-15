@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Mahogany Bay Cruise Terminal | Cruise Port",
-    "description": "Explore Mahogany Bay Cruise Terminal in Coxen Hole, Bay Islands, Honduras. A modern cruise terminal serving the beautiful Caribbean coast."
+    "description": "Explore Mahogany Bay Cruise Terminal in Dixon Cove, Roatán, Honduras. A modern cruise terminal serving the beautiful Caribbean coast."
   },
   "header": {
     "home": "Home",
@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Mahogany Bay Cruise Terminal",
-    "subtitle": "Bay Islands · Honduras",
+    "subtitle": "Roatán · Honduras",
     "rating": "4.7",
     "reviewCount": "4,788",
     "hours": "Cruise Terminal",
@@ -20,7 +20,7 @@
   },
   "intro": {
     "title": "Explore Mahogany Bay Cruise Terminal",
-    "description": "Mahogany Bay Cruise Terminal is located in Coxen Hole, Bay Islands, Honduras. It is a modern cruise terminal serving the beautiful Caribbean coast, providing convenient services and facilities for cruise passengers visiting Roatán and the surrounding Bay Islands.",
+    "description": "Mahogany Bay Cruise Terminal is located in Dixon Cove, Roatán, Honduras. It is a modern cruise terminal serving the beautiful Caribbean coast, providing convenient services and facilities for cruise passengers visiting Roatán and the surrounding Roatán.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -34,9 +34,11 @@
       "title": "Highlights",
       "items": [
         "Modern Facilities: Well-equipped cruise terminal with shops, restaurants, and passenger services.",
-        "Prime Location: Located in Coxen Hole, the main gateway to Roatán Island.",
+        "Prime Location: Located in Dixon Cove, the main gateway to Roatán Island.",
         "Caribbean Access: Perfect starting point for exploring the beautiful Caribbean beaches and coral reefs.",
-        "Tourist Services: Information desk and tour arrangements available for visitors."
+        "Tourist Services: Information desk and tour arrangements available for visitors.",
+        "Carnival Corporation Exclusive: A private, exclusive port built and managed by Carnival Corporation, primarily serving its cruise brands.",
+        "Magical Flying Beach Chair: A unique chairlift that transports passengers directly from the shopping area to the exclusive Mahogany Beach."
       ]
     }
   },
@@ -45,6 +47,7 @@
     "overview": "Discover the ideal route to explore Mahogany Bay Cruise Terminal and experience the beauty of the Caribbean coast.",
     "steps": [
       "Arrive at Mahogany Bay Cruise Terminal and familiarize yourself with the facilities and layout.",
+      "Take the Magical Flying Beach Chair to the exclusive Mahogany Beach and enjoy the Caribbean sun.",
       "Visit the information desk to get maps and learn about local attractions and tour options.",
       "Take a shuttle or taxi to explore the nearby beaches and coral reefs of Roatán.",
       "Return to the terminal to shop for souvenirs and enjoy local cuisine before departure."
@@ -63,7 +66,7 @@
       {
         "id": "history",
         "title": "Historical Significance",
-        "content": "Mahogany Bay Cruise Terminal is an important maritime gateway in Honduras, serving thousands of cruise passengers annually. It plays a vital role in connecting the Caribbean tourism industry with the beautiful Bay Islands."
+        "content": "Mahogany Bay Cruise Terminal is an important maritime gateway in Honduras, serving thousands of cruise passengers annually. It plays a vital role in connecting the Caribbean tourism industry with the beautiful Roatán."
       },
       {
         "id": "culture",
@@ -86,12 +89,12 @@
     "country": "Country",
     "countryValue": "Honduras",
     "city": "City",
-    "cityValue": "Coxen Hole, Bay Islands",
+    "cityValue": "Dixon Cove, Roatán",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
     "plusCode": "Plus Code",
-    "plusCodeValue": "8GG3+W27 Coxen Hole, Bay Islands, Honduras"
+    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras"
   },
   "hours": {
     "title": "Operating Hours",
@@ -125,15 +128,15 @@
     "airport": "From the Airport",
     "airportDesc": "Nearest airport: Juan Manuel Gálvez International Airport (RTB). Short distance to the cruise terminal.",
     "selfDrive": "Driving",
-    "selfDriveDesc": "The terminal is located in Coxen Hole. Use navigation and follow signs to the cruise port.",
+    "selfDriveDesc": "The terminal is located in Dixon Cove. Use navigation and follow signs to the cruise port.",
     "bus": "Public Transport",
-    "busDesc": "Local buses and taxis are available from Coxen Hole to the terminal area.",
+    "busDesc": "Local buses and taxis are available from Dixon Cove to the terminal area.",
     "intercity": "Cruise Shuttle",
     "intercityDesc": "Most cruise lines provide shuttle service from the terminal to popular attractions.",
     "cycling": "Other Means",
     "cyclingDesc": "Taxis and water taxis are commonly used for getting around the island.",
     "tips": "Travel Tips",
-    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Bay Islands."
+    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Roatán."
   },
   "gallery": {
     "title": "Stunning Photos",
@@ -219,7 +222,7 @@
   },
   "mapSection": {
     "title": "Location & Map",
-    "subtitle": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "subtitle": "8GG3+W27, Dixon Cove, Roatán, Honduras",
     "openMaps": "View on Google Maps"
   },
   "footer": {
@@ -242,7 +245,7 @@
         "url": "https://www.iht.hn"
       },
       "zolitur": {
-        "name": "Bay Islands Tourism Free Zone",
+        "name": "Roatán Tourism Free Zone",
         "url": "https://zolitur.gob.hn"
       },
       "iaip": {
@@ -352,7 +355,7 @@
   },
   "officialManagement": {
     "title": "About Mahogany Bay Cruise Terminal",
-    "text": "Mahogany Bay Cruise Terminal is a modern cruise facility in Coxen Hole, Bay Islands, Honduras, serving as the gateway to the beautiful Caribbean coast and Roatán Island."
+    "text": "Mahogany Bay Cruise Terminal is a modern cruise facility in Dixon Cove, Roatán, Honduras, owned and managed by Carnival Corporation, serving as a private exclusive gateway to the beautiful Caribbean coast and Roatán Island."
   },
   "historyTimeline": {
     "title": "Historical Timeline",
@@ -367,7 +370,7 @@
         "year": "Growth Phase",
         "title": "Growth Phase: Tourism Expansion",
         "plaque": "Tourism Development (Caribbean Gateway)",
-        "description": "The terminal experienced significant growth as more cruise lines added Roatán to their itineraries, becoming an important economic driver for the Bay Islands."
+        "description": "The terminal experienced significant growth as more cruise lines added Roatán to their itineraries, becoming an important economic driver for the Roatán."
       },
       {
         "year": "Modern Era",
@@ -379,7 +382,7 @@
         "year": "Future Vision",
         "title": "Future Vision: Sustainable Tourism",
         "plaque": "Sustainability (Eco-Tourism)",
-        "description": "Looking ahead, the terminal aims to promote sustainable tourism practices while maintaining its role as a premier Caribbean cruise destination, balancing growth with environmental protection."
+        "description": "Looking ahead, the terminal aims to promote sustainable tourism practices while maintaining its role as a premier Caribbean cruise destination, balancing growth with environmental protection. Carnival Corporation has announced a brand upgrade to 'Isla Tropicale', adding swimming pools, beach clubs, and swim-up bars."
       }
     ],
     "guideTitle": "Visitor Guide Tip",

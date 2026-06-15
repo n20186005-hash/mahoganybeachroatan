@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const mapsUrl = "https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA";
+  const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan";
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">

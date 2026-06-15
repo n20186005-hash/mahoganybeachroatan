@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA";
+  const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan";
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>

@@ -33,7 +33,7 @@ export default function Gallery() {
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Los Dos Templos ${i + 1}`,
+    alt: captions?.[i] || `Mahogany Bay ${i + 1}`,
   }));
 
   const visiblePhotos = photos;
@@ -91,7 +91,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-8">
               <a
-                href="https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA"
+                href="https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"
