@@ -1,0 +1,140 @@
+我们网站是
+mahoganybeachroatan.com
+检查下有没有错误
+
+
+
+字段	填写内容
+国家 / 地区 *	洪都拉斯（Honduras）
+地址 *	8GG3+W27, Coxen Hole
+地址 2	（留空，无额外信息）
+城市 *	Coxen Hole
+省 / 自治区 / 直辖市 *	Bay Islands（海湾群岛省）
+邮政编码 *	（洪都拉斯该地址未提供邮编，若表单必须填写，可尝试留空或使用当地通用格式，部分洪都拉斯地区使用 34101 类格式，这里无明确数据，建议优先按实际情况处理）
+
+
+
+
+mahogany-bay-cruise-terminal
+
+
+Mahogany Bay Cruise Terminal”（桃花心木湾邮轮码头）
+
+
+Mahogany Bay Cruise Terminal
+4.7(4,788)
+邮轮码头
+
+8GG3+W27, Coxen Hole, Bay Islands, Honduras
+
+https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+
+
+
+你正在用（Next.js开发）
+为一个新景点【 Mahogany Bay Cruise Terminal 】构建静态/Next.js 单页指南网站。
+页面只需要支持中文、英文、西班牙文三语言
+
+mahogany-bay-cruise-terminal
+
+Mahogany Bay Cruise Terminal”（桃花心木湾邮轮码头）
+
+Mahogany Bay Cruise Terminal
+4.7(4,788)
+邮轮码头
+
+8GG3+W27, Coxen Hole, Bay Islands, Honduras
+
+https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+首屏背景图要引用以下
+C:\Users\Administrator\Documents\GitHub\洪都拉斯\mahogany-bay-cruise-terminal\public\gallery\mahogany-bay-cruise-terminal (1).jpg
+
+删除原先友情链接，新增以下友情链接
+
+洪都拉斯国家移民局
+https://inm.gob.hn
+洪都拉斯国家旅游门户
+https://honduras.travel
+洪都拉斯国家旅游局政务
+https://www.iht.hn 
+海湾群岛旅游自由区管理局
+https://zolitur.gob.hn  
+国家公共信息获取研究所
+https://portalunico.iaip.gob.hn
+洪都拉斯国家领土信息系统
+https://sinit.hn
+
+
+在Google地图上查看位置都跳转为 https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+页面一共四个链接每一个都需要修改
+	
+照片画廊
+精彩照片
+检查照片名称是否正确并修正
+
+
+首屏谷歌地图位置跳转为 https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+照片画廊
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+游客评价
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+地图位置
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/5Wu1i4JcqhcEmThRA
+
+首屏右侧切换中文的时候 网站没转为/zh
+
+生成一个文件忽略不需要上传的文件
+
+---------------
+
+照片画廊
+精彩照片 显示照片不全目前只显示8张，需要有显示完整照片显示功能
+检查照片名称是否正确并修正
+
+删除 探索更多 板块
+
+
+新增
+西班牙语
+
+
+
+
+生成一个文件忽略不需要上传的文件
+
+
+
+
+
+给我五个国家级、大区级、市级到专业遗产数据库的完整链条
+
+严格限制为国家及地方政府官方、官方官方旅游局、出入境管理、的网站友情链接，确保全部具备纯正的官方政府背景：
+
+洪都拉斯国家移民局
+https://inm.gob.hn
+洪都拉斯国家旅游局
+https://www.iht.hn 
+海湾群岛旅游自由区管理局
+https://zolitur.gob.hn  
+罗阿坦市长办公室
+https://muniroatan.gob.hn
+洪都拉斯国家领土信息系统
+https://sinit.hn
+
+
+
+洪都拉斯国家移民局 (INM)  职责范围： 负责统筹包括 Mahogany Bay 邮轮码头在内的所有国家出入境海事与边境口岸控制。  官方链接： https://inm.gob.hn  
+
+洪都拉斯国家旅游局 (IHT)职责范围： 洪都拉斯负责制定旅游政策、促进国家级旅游发展（含邮轮经济与文化遗产推广）的最高政府机构。官方链接： https://www.iht.hn  
+
+海湾群岛旅游自由区管理局 (ZOLITUR)职责范围： 专门针对“海湾群岛省”（Islas de la Bahía）设立的官方行政管理机构，负责规范和发展该省的旅游资源及自由贸易区划。官方链接： https://zolitur.gob.hn  
+
+罗阿坦市长办公室 (Alcaldía Municipal de Roatán)职责范围： 码头所在地——罗阿坦市（辖考克森洞等区域）的地方最高行政长官与市政管理官方网站，包含当地城市规划与环境管理。官方链接： https://muniroatan.gob.hn (注：官网及政务邮箱使用此域名后缀)  
+
+洪都拉斯国家领土信息系统 (SINIT)职责范围： 提供包含海湾群岛省和罗阿坦市在内的国家级精确领土划分、地理测绘以及市政模块数据的官方数据库系统。官方链接： https://sinit.hn  
+
