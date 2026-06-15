@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "title": "Mahogany Bay Cruise Terminal | Terminal de Cruceros",
+    "description": "Explora la Terminal de Cruceros Mahogany Bay en Coxen Hole, Islas de la Bahía, Honduras. Una terminal de cruceros moderna que sirve a la hermosa costa caribeña."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Resenas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Mahogany Bay Cruise Terminal",
+    "subtitle": "Islas de la Bahía · Honduras",
+    "rating": "4.7",
+    "reviewCount": "4,788",
+    "hours": "Terminal de Cruceros",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora Mahogany Bay Cruise Terminal",
+    "description": "Mahogany Bay Cruise Terminal se encuentra en Coxen Hole, Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "Verifique el horario de cruceros antes de la llegada",
+        "Prepare efectivo para compras locales y propinas",
+        "La protección solar es esencial - traiga bloqueador y sombrero",
+        "Pruebe la cocina hondureña local y mariscos"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Instalaciones Modernas: Terminal de cruceros bien equipada con tiendas, restaurantes y servicios para pasajeros.",
+        "Ubicación Privilegiada: Situada en Coxen Hole, la puerta principal a la isla de Roatán.",
+        "Acceso al Caribe: Punto de partida perfecto para explorar las hermosas playas caribeñas y arrecifes de coral.",
+        "Servicios Turísticos: Mostrador de información y arreglos turísticos disponibles para los visitantes."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "Descubre la ruta ideal para explorar Mahogany Bay Cruise Terminal y experimentar la belleza de la costa caribeña.",
+    "steps": [
+      "Llegue a Mahogany Bay Cruise Terminal y familiarícese con las instalaciones y el diseño.",
+      "Visite el mostrador de información para obtener mapas y conocer sobre atracciones locales y opciones turísticas.",
+      "Tome un transporte o taxi para explorar las playas y arrecifes de coral cercanos de Roatán.",
+      "Regrese a la terminal para comprar recuerdos y disfrutar de la cocina local antes de la salida."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Prepare algo de efectivo para compras y tours locales.",
+      "La protección solar es importante - el sol caribeño puede ser muy fuerte.",
+      "Traiga bolsas impermeables para proteger sus pertenencias durante actividades acuáticas.",
+      "Verifique la hora de salida del crucero para asegurarse de regresar a tiempo."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto de Mahogany Bay",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Importancia Histórica",
+        "content": "Mahogany Bay Cruise Terminal es una puerta marítima importante en Honduras, sirviendo a miles de pasajeros de cruceros anualmente. Juega un papel vital en conectar la industria turística caribeña con las hermosas Islas de la Bahía."
+      },
+      {
+        "id": "culture",
+        "title": "Paisaje Cultural",
+        "content": "La terminal muestra la vibrante cultura caribeña de Honduras, con artesanos locales, vendedores de comida y presentaciones culturales disponibles para que los visitantes experimenten la auténtica hospitalidad hondureña."
+      },
+      {
+        "id": "experience",
+        "title": "Experiencia de Visita",
+        "content": "Caminando por la terminal y las áreas circundantes, puede sentir la atmósfera tropical y el encanto de la isla. Es un excelente punto de partida para explorar la belleza natural y la vida marina del Caribe."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información Básica",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Mahogany Bay Cruise Terminal",
+    "type": "Tipo",
+    "typeValue": "Terminal de Cruceros",
+    "country": "País",
+    "countryValue": "Honduras",
+    "city": "Ciudad",
+    "cityValue": "Coxen Hole, Islas de la Bahía",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "8GG3+W27 Coxen Hole, Islas de la Bahía, Honduras"
+  },
+  "hours": {
+    "title": "Horarios de Apertura",
+    "outdoor": "Área de la Terminal",
+    "outdoorTime": "Abierto según el horario de cruceros",
+    "lighthouse": "Mejor Época para Visitar",
+    "summer": "Temporada Seca (febrero-junio)",
+    "summerTime": "Clima más agradable, ideal para visitas de cruceros",
+    "winter": "Temporada de Lluvias (julio-enero)",
+    "winterTime": "Clima cálido con lluvias ocasionales, todavía bueno para visitas",
+    "warning": "Notas Importantes",
+    "warningTime": "Los horarios de operación varian según el horario de llegada de cruceros",
+    "tip": "Verifique el horario de cruceros antes de planificar su visita"
+  },
+  "tickets": {
+    "title": "Información de Entradas",
+    "outdoor": "Acceso a la Terminal",
+    "outdoorPrice": "Gratuito para pasajeros de cruceros",
+    "lighthouse": "Excursiones en Tierra",
+    "adults": "Visitas Guiadas",
+    "adultsPrice": "Varía según el operador turístico",
+    "students": "Actividades en la Playa",
+    "studentsPrice": "Muchos deportes acuáticos disponibles",
+    "children": "Recomendaciones",
+    "childrenPrice": "Reserve excursiones con anticipación para mejor experiencia",
+    "card": "Servicios Adicionales",
+    "cardPrice": "Mostrador de información y reservas turísticas disponibles"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional Juan Manuel Gálvez (RTB). Corta distancia a la terminal de cruceros.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "La terminal está situada en Coxen Hole. Use navegación y siga los letreros hasta el puerto de cruceros.",
+    "bus": "Transporte Público",
+    "busDesc": "Hay autobuses locales y taxis disponibles desde Coxen Hole hasta el área de la terminal.",
+    "intercity": "Transporte del Crucero",
+    "intercityDesc": "La mayoría de las líneas de cruceros proporcionan servicio de transporte desde la terminal hasta atracciones populares.",
+    "cycling": "Otros Medios",
+    "cyclingDesc": "Los taxis y taxis acuáticos se utilizan comúnmente para moverse por la isla.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "Mahogany Bay Cruise Terminal es la puerta perfecta para explorar Roatán y las Islas de la Bahía."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "La Belleza de Mahogany Bay Cruise Terminal",
+    "captions": [
+      "Vista panorámica de la terminal",
+      "Instalaciones del puerto de cruceros",
+      "Costa caribeña",
+      "Arquitectura de la terminal",
+      "Área de pasajeros",
+      "Vista al mar",
+      "Paisaje tropical",
+      "Paisaje del puerto",
+      "Ambiente de la terminal",
+      "Área de atraque",
+      "Mar y cielo",
+      "Vista completa de la terminal",
+      "Encanto costero",
+      "Fondo de isla",
+      "Patrimonio marítimo",
+      "Llegada de crucero",
+      "Paraíso tropical",
+      "Aguas del Caribe",
+      "Instalaciones del puerto"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Resenas de Visitantes",
+    "declaration": "La información de las resenas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Resenas en Google Maps",
+    "items": [
+      {
+        "name": "Michael Thompson",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Excelente terminal de cruceros con todas las instalaciones necesarias. Limpia, bien organizada y el personal es muy servicial. Gran punto de partida para explorar Roatán."
+      },
+      {
+        "name": "Sarah Jenkins",
+        "date": "hace 2 semanas",
+        "rating": 5,
+        "text": "Hermosa terminal con vistas increíbles del Caribe. Fácil de navegar y abundantes opciones de compras. Los locales son amigables y acogedores."
+      },
+      {
+        "name": "David Rodriguez",
+        "date": "hace 3 meses",
+        "rating": 4,
+        "text": "Buena terminal en general. Podría usar más áreas de asientos, pero la ubicación es perfecta para acceder a las mejores playas de Roatán."
+      },
+      {
+        "name": "Lisa Chen",
+        "date": "hace 1 semana",
+        "rating": 5,
+        "text": "Terminal moderna y eficiente. El mostrador de información fue muy útil al organizar nuestro tour de la isla. Altamente recomendado visitar las playas cercanas."
+      },
+      {
+        "name": "James Wilson",
+        "date": "hace 2 meses",
+        "rating": 4,
+        "text": "Buenas instalaciones con buenas comodidades. El servicio de transporte a las playas es conveniente. El clima fue perfecto durante nuestra visita."
+      },
+      {
+        "name": "Maria Santos",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "¡Maravillosa experiencia en Mahogany Bay! La terminal está bien mantenida y la atmósfera caribeña es simplemente mágica. Definitivamente regresaré."
+      },
+      {
+        "name": "Robert Miller",
+        "date": "hace 1 mes",
+        "rating": 4,
+        "text": "Decente terminal de cruceros. Todo lo que necesita está disponible aquí. Las vistas del mar desde la terminal son espectaculares."
+      },
+      {
+        "name": "Jennifer Lee",
+        "date": "hace 2 semanas",
+        "rating": 5,
+        "text": "¡Fantástica terminal! Muy organizada y limpia. Los vendedores locales ofrecen grandes recuerdos y la comida es deliciosa. Un escape caribeño perfecto."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Mahogany Bay Cruise Terminal. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales",
+    "officialLinks": {
+      "inm": {
+        "name": "Instituto Nacional de Migración de Honduras",
+        "url": "https://inm.gob.hn"
+      },
+      "hondurastravel": {
+        "name": "Portal Nacional de Turismo de Honduras",
+        "url": "https://honduras.travel"
+      },
+      "iht": {
+        "name": "Instituto Hondureño de Turismo",
+        "url": "https://www.iht.hn"
+      },
+      "zolitur": {
+        "name": "Zona de Libre Desarrollo Turístico de las Islas de la Bahía",
+        "url": "https://zolitur.gob.hn"
+      },
+      "iaip": {
+        "name": "Instituto de Acceso a la Información Pública",
+        "url": "https://portalunico.iaip.gob.hn"
+      },
+      "sinit": {
+        "name": "Sistema Nacional de Información Territorial",
+        "url": "https://sinit.hn"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y servicios de alojamiento de imágenes. Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Propiedad Intelectual",
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de varios proveedores y se utilizan bajo licencias apropiadas. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+      },
+      {
+        "heading": "5. Limitación de Responsabilidad",
+        "content": "Este sitio web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  },
+  "officialManagement": {
+    "title": "Acerca de Mahogany Bay Cruise Terminal",
+    "text": "Mahogany Bay Cruise Terminal es una instalación de cruceros moderna en Coxen Hole, Islas de la Bahía, Honduras, que sirve como puerta de acceso a la hermosa costa caribeña y la isla de Roatán."
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período de Desarrollo",
+        "title": "Período de Desarrollo: Construcción de la Terminal",
+        "plaque": "Infraestructura Moderna (Terminal de Cruceros)",
+        "description": "Mahogany Bay Cruise Terminal fue desarrollada para acomodar la creciente industria de turismo de cruceros en Honduras, proporcionando instalaciones modernas para pasajeros internacionales de cruceros."
+      },
+      {
+        "year": "Fase de Crecimiento",
+        "title": "Fase de Crecimiento: Expansión Turística",
+        "plaque": "Desarrollo Turístico (Puerta del Caribe)",
+        "description": "La terminal experimentó un crecimiento significativo a medida que más líneas de cruceros agregaron Roatán a sus itinerarios, convirtiéndose en un importante motor económico para las Islas de la Bahía."
+      },
+      {
+        "year": "Era Moderna",
+        "title": "Era Moderna: Servicios Mejorados",
+        "plaque": "Mejora de Servicios (Experiencia del Pasajero)",
+        "description": "Con mejoras continuas a las instalaciones y servicios, la terminal ahora ofrece una experiencia mejorada del pasajero que incluye servicios de información, compras y arreglos turísticos."
+      },
+      {
+        "year": "Visión Futura",
+        "title": "Visión Futura: Turismo Sostenible",
+        "plaque": "Sostenibilidad (Ecoturismo)",
+        "description": "Mirando hacia el futuro, la terminal tiene como objetivo promover prácticas de turismo sostenible mientras mantiene su papel como un destino premier de cruceros en el Caribe, equilibrando el crecimiento con la protección ambiental."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, puede comenzar **familiarizándose con las instalaciones de la terminal**; luego **visite el mostrador de información** para conocer sobre atracciones locales; a continuación, **tome un transporte o taxi** para explorar las hermosas playas y arrecifes de coral de Roatán; finalmente, **regrese a la terminal** para comprar recuerdos y disfrutar de la cocina local antes de la salida."
+  }
+}

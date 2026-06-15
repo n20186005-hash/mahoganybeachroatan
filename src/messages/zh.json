@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "title": "Mahogany Bay 邮轮码头 | 邮轮港口",
+    "description": "探索洪都拉斯海湾群岛考克斯霍尔的 Mahogany Bay 邮轮码头。现代化的邮轮码头，服务于美丽的加勒比海海岸。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图库",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
+  },
+  "hero": {
+    "title": "Mahogany Bay 邮轮码头",
+    "subtitle": "海湾群岛 · 洪都拉斯",
+    "rating": "4.7",
+    "reviewCount": "4,788",
+    "hours": "邮轮码头",
+    "openMaps": "查看位置"
+  },
+  "intro": {
+    "title": "探索 Mahogany Bay 邮轮码头",
+    "description": "Mahogany Bay 邮轮码头位于洪都拉斯海湾群岛考克斯霍尔。这是一个现代化的邮轮码头，服务于美丽的加勒比海海岸，为来访罗阿坦岛及周边海湾群岛的邮轮乘客提供便捷的服务和设施。",
+    "visitGuide": {
+      "title": "游览建议",
+      "items": [
+        "抵达前查看邮轮时刻表",
+        "准备现金用于当地购物和小费",
+        "防晒措施必不可少 - 携带防晒霜和帽子",
+        "尝试洪都拉斯当地美食和海鲜"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "核心亮点",
+      "items": [
+        "现代化设施：配备完善的邮轮码头，设有商店、餐厅和乘客服务设施。",
+        "优越位置：位于考克斯霍尔，是前往罗阿坦岛的主要门户。",
+        "加勒比海通道：探索美丽加勒比海滩和珊瑚礁的完美起点。",
+        "旅游服务：为游客提供资讯台和旅游安排服务。"
+      ]
+    }
+  },
+  "route": {
+    "title": "游览路线",
+    "overview": "探索 Mahogany Bay 邮轮码头的理想路线，感受加勒比海海岸的美丽风光。",
+    "steps": [
+      "抵达 Mahogany Bay 邮轮码头，熟悉设施和布局。",
+      "参观资讯台，获取地图并了解当地景点和旅游选项。",
+      "乘坐班车或出租车探索罗阿坦岛附近的海滩和珊瑚礁。",
+      "返回码头购买纪念品并享用当地美食，然后准备离港。"
+    ],
+    "supplementsTitle": "游览补充建议",
+    "supplements": [
+      "请准备一些现金用于购物和当地游览。",
+      "防晒很重要 - 加勒比海的阳光非常强烈。",
+      "携带防水袋以保护水上活动时的随身物品。",
+      "检查邮轮出发时间，确保按时返回船上。"
+    ]
+  },
+  "knowledge": {
+    "title": "发现 Mahogany Bay 的魅力",
+    "sections": [
+      {
+        "id": "history",
+        "title": "历史意义",
+        "content": "Mahogany Bay 邮轮码头是洪都拉斯重要的海上门户，每年为数万名邮轮乘客提供服务。它在连接加勒比海旅游业与美丽的海湾群岛方面发挥着至关重要的作用。"
+      },
+      {
+        "id": "culture",
+        "title": "文化景观",
+        "content": "码头展示了洪都拉斯充满活力的加勒比海文化，当地工匠、美食摊贩和文化表演让游客体验真正的洪都拉斯式热情好客。"
+      },
+      {
+        "id": "experience",
+        "title": "游览体验",
+        "content": "漫步在码头和周边地区，您可以感受到热带氛围和岛屿魅力。这里是探索加勒比海自然美景和海洋生物的绝佳起点。"
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "基础信息",
+    "officialName": "正式名称",
+    "officialNameValue": "Mahogany Bay 邮轮码头",
+    "type": "景点类型",
+    "typeValue": "邮轮码头",
+    "country": "国家",
+    "countryValue": "洪都拉斯",
+    "city": "城市",
+    "cityValue": "考克斯霍尔, 海湾群岛",
+    "googleRating": "谷歌评分",
+    "address": "地址",
+    "addressValue": "8GG3+W27, Coxen Hole, Bay Islands, 洪都拉斯",
+    "plusCode": "Plus 代码",
+    "plusCodeValue": "8GG3+W27 考克斯霍尔, 洪都拉斯海湾群岛"
+  },
+  "hours": {
+    "title": "开放时间",
+    "outdoor": "码头区域",
+    "outdoorTime": "根据邮轮时刻表开放",
+    "lighthouse": "最佳游览时间",
+    "summer": "旱季（2月-6月）",
+    "summerTime": "气候更宜人，最适合邮轮游览",
+    "winter": "雨季（7月-1月）",
+    "winterTime": "天气温暖，偶有降雨，仍然适合游览",
+    "warning": "重要提示",
+    "warningTime": "开放时间根据邮轮抵达时刻表而定",
+    "tip": "计划游览前请查看邮轮时刻表"
+  },
+  "tickets": {
+    "title": "门票信息",
+    "outdoor": "码头通行",
+    "outdoorPrice": "邮轮乘客免费",
+    "lighthouse": "岸上观光",
+    "adults": "导游服务",
+    "adultsPrice": "根据旅行社不同而不同",
+    "students": "海滩活动",
+    "studentsPrice": "有多种水上运动可供选择",
+    "children": "建议",
+    "childrenPrice": "提前预订岸上观光以获得最佳体验",
+    "card": "附加服务",
+    "cardPrice": "提供资讯台和旅游预订服务"
+  },
+  "transport": {
+    "title": "交通方式",
+    "airport": "从机场出发",
+    "airportDesc": "最近机场：胡安·曼努埃尔·加尔维斯国际机场 (RTB)。距离邮轮码头很短路程。",
+    "selfDrive": "自驾前往",
+    "selfDriveDesc": "码头位于考克斯霍尔。建议使用导航前往，并跟随指示牌前往邮轮港口。",
+    "bus": "公共交通",
+    "busDesc": "从考克斯霍尔有当地巴士和出租车可到达码头区域。",
+    "intercity": "邮轮班车",
+    "intercityDesc": "大多数邮轮公司提供从码头到热门景点的班车服务。",
+    "cycling": "其他方式",
+    "cyclingDesc": "出租车和水上出租车是岛上常用的交通方式。",
+    "tips": "出行建议",
+    "tipsDesc": "Mahogany Bay 邮轮码头是探索罗阿坦岛和海湾群岛的完美门户。"
+  },
+  "gallery": {
+    "title": "精彩照片",
+    "subtitle": "Mahogany Bay 邮轮码头的魅力风光",
+    "captions": [
+      "码头全景",
+      "邮轮港口设施",
+      "加勒比海岸线",
+      "码头建筑",
+      "乘客区域",
+      "海景",
+      "热带景观",
+      "港口风光",
+      "码头氛围",
+      "停靠区域",
+      "海天一色",
+      "码头全貌",
+      "海岸魅力",
+      "岛屿背景",
+      "海事遗产",
+      "邮轮抵达",
+      "热带天堂",
+      "加勒比海水域",
+      "港口设施"
+    ],
+    "viewAll": "在 Google Maps 查看更多照片",
+    "showAllPhotos": "显示全部照片"
+  },
+  "reviews": {
+    "title": "游客评价",
+    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
+    "moreReviews": "在 Google Maps 查看更多评价",
+    "items": [
+      {
+        "name": "Michael Thompson",
+        "date": "1个月前",
+        "rating": 5,
+        "text": "优秀的邮轮码头，设施齐全。干净、组织良好，工作人员非常乐于助人。探索罗阿坦岛的绝佳起点。"
+      },
+      {
+        "name": "Sarah Jenkins",
+        "date": "2周前",
+        "rating": 5,
+        "text": "美丽的码头，加勒比海景色令人惊叹。易于导航，购物选择丰富。当地人友好热情。"
+      },
+      {
+        "name": "David Rodriguez",
+        "date": "3个月前",
+        "rating": 4,
+        "text": "整体来说不错的码头。可以增加更多座位区，但位置非常适合前往罗阿坦岛最美的海滩。"
+      },
+      {
+        "name": "Lisa Chen",
+        "date": "1周前",
+        "rating": 5,
+        "text": "现代化且高效的码头。资讯台在安排我们的岛上游览方面非常有帮助。强烈推荐参观附近的海滩。"
+      },
+      {
+        "name": "James Wilson",
+        "date": "2个月前",
+        "rating": 4,
+        "text": "不错的设施， amenities 很好。前往海滩的班车服务很方便。我们游览期间天气完美。"
+      },
+      {
+        "name": "Maria Santos",
+        "date": "3周前",
+        "rating": 5,
+        "text": "在 Mahogany Bay 的美妙体验！码头维护良好，加勒比海的氛围简直神奇。一定会再来。"
+      },
+      {
+        "name": "Robert Miller",
+        "date": "1个月前",
+        "rating": 4,
+        "text": "不错的邮轮码头。这里有一切你需要的东西。从码头看海景非常壮观。"
+      },
+      {
+        "name": "Jennifer Lee",
+        "date": "2周前",
+        "rating": 5,
+        "text": "很棒的码头！非常有组织且干净。当地供应商提供很棒的纪念品，食物也很美味。完美的加勒比海度假胜地。"
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "地图位置",
+    "subtitle": "8GG3+W27, Coxen Hole, Bay Islands, 洪都拉斯",
+    "openMaps": "在 Google Maps 查看位置"
+  },
+  "footer": {
+    "rights": "© 2026 Mahogany Bay 邮轮码头. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "officialResourcesTitle": "相关资源与资讯",
+    "officialLinks": {
+      "inm": {
+        "name": "洪都拉斯国家移民局",
+        "url": "https://inm.gob.hn"
+      },
+      "hondurastravel": {
+        "name": "洪都拉斯国家旅游门户",
+        "url": "https://honduras.travel"
+      },
+      "iht": {
+        "name": "洪都拉斯国家旅游局政务",
+        "url": "https://www.iht.hn"
+      },
+      "zolitur": {
+        "name": "海湾群岛旅游自由区管理局",
+        "url": "https://zolitur.gob.hn"
+      },
+      "iaip": {
+        "name": "国家公共信息获取研究所",
+        "url": "https://portalunico.iaip.gob.hn"
+      },
+      "sinit": {
+        "name": "洪都拉斯国家领土信息系统",
+        "url": "https://sinit.hn"
+      }
+    },
+    "disclaimer": "本网站是一个独立的第三方旅游资讯项目。我们与当地政府或其他官方机构没有任何关联。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 我们收集的信息",
+        "content": "我们仅收集提供服务所必需的最低限度数据。这些数据可能包括：浏览数据（IP 地址、浏览器类型、访问页面）、Cookie 和类似技术，以及您通过联系表格或电子邮件自愿提供的任何信息。"
+      },
+      {
+        "heading": "2. 我们如何使用您的信息",
+        "content": "我们使用收集到的信息用于：改善网站内容和用户体验、分析流量和使用模式、回应请求，以及遵守我们的法律义务。"
+      },
+      {
+        "heading": "3. 第三方服务",
+        "content": "我们的网站可能会使用第三方服务，例如谷歌地图（用于嵌入式地图和位置数据）、谷歌分析（用于流量分析）和图片托管服务。这些服务均有各自的隐私政策。"
+      },
+      {
+        "heading": "4. 您的权利",
+        "content": "根据《通用数据保护条例》(GDPR)及相关法规，您享有以下权利：访问您的个人数据、要求更正或删除、反对处理，以及向监管机构提出投诉。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新时间：2026年6月",
+    "sections": [
+      {
+        "heading": "1. 接受条款",
+        "content": "访问和使用本网站，即表示您同意受这些服务条款的约束。"
+      },
+      {
+        "heading": "2. 内容使用",
+        "content": "本网站所有内容仅供参考。我们是一家独立的第三方旅游信息网站，与任何旅游景点、政府机构或商业运营商均无关联。"
+      },
+      {
+        "heading": "3. 信息的准确性",
+        "content": "我们力求提供准确及时的信息，但无法保证信息的完整性或准确性。行程安排、条件和服务如有变更，恕不另行通知。请务必在出行前通过官方渠道核实重要信息。"
+      },
+      {
+        "heading": "4. 知识产权",
+        "content": "本网站设计和原创内容受版权保护。图片来自各种提供商，并在适当许可下使用。Google 地图数据的使用符合 Google 的服务条款。"
+      },
+      {
+        "heading": "5. 责任限制",
+        "content": "本网站按现状提供，不作任何担保。对于因使用本网站信息而造成的任何损失，包括但不限于基于本网站内容做出的旅行决定，我们概不负责。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "最后更新时间：2026年6月\n\n我们使用 Cookie 来改善您的浏览体验。您可以在下方管理您的偏好设置。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 对于网站正常运行至关重要，无法禁用。",
+      "badge": "始终保持活跃"
+    },
+    "analytics": {
+      "title": "分析型 Cookie",
+      "description": "它们通过收集匿名使用数据，帮助我们了解访客如何与我们的网站互动。",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "激活",
+          "description": "它会收集访客如何使用我们网站的匿名信息。"
+        }
+      ]
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "它们用于展示相关广告并衡量广告活动的有效性。",
+      "items": [
+        {
+          "name": "个性化广告",
+          "status": "停用",
+          "description": "它可以根据你的兴趣为你展示相关的广告。"
+        }
+      ]
+    },
+    "save": "保存偏好设置",
+    "saved": "设置已保存！",
+    "preferences": {
+      "items": [
+        {
+          "name": "用户偏好",
+          "status": "激活",
+          "description": "保存您的语言偏好和网站设置。"
+        }
+      ],
+      "title": "偏好 Cookie",
+      "description": "它们会记住您的设置，例如语言和主题偏好。"
+    },
+    "consentManagement": "同意管理：您可以随时更改您的 Cookie 设置。请注意，禁用某些 Cookie 可能会影响网站的功能。",
+    "rejectAll": "拒绝一切"
+  },
+  "officialManagement": {
+    "title": "关于 Mahogany Bay 邮轮码头",
+    "text": "Mahogany Bay 邮轮码头是洪都拉斯海湾群岛考克斯霍尔的现代化邮轮设施，作为通往美丽加勒比海海岸和罗阿坦岛的门户。"
+  },
+  "historyTimeline": {
+    "title": "历史变迁时间线",
+    "items": [
+      {
+        "year": "发展时期",
+        "title": "发展时期：码头建设",
+        "plaque": "现代化基础设施（邮轮码头）",
+        "description": "Mahogany Bay 邮轮码头是为适应洪都拉斯不断增长的邮轮旅游业而开发的，为国际邮轮乘客提供现代化设施。"
+      },
+      {
+        "year": "增长阶段",
+        "title": "增长阶段：旅游业扩张",
+        "plaque": "旅游发展（加勒比海门户）",
+        "description": "随着更多邮轮公司将罗阿坦岛加入其行程，码头经历了显著增长，成为海湾群岛重要的经济驱动力。"
+      },
+      {
+        "year": "现代时期",
+        "title": "现代时期：服务提升",
+        "plaque": "服务改进（乘客体验）",
+        "description": "随着设施和服务不断改进，码头现在提供增强的乘客体验，包括信息服务、购物和旅游安排。"
+      },
+      {
+        "year": "未来愿景",
+        "title": "未来愿景：可持续旅游",
+        "plaque": "可持续发展（生态旅游）",
+        "description": "展望未来，码头旨在促进可持续旅游实践，同时保持其作为加勒比海顶级邮轮目的地的地位，平衡增长与环境保护。"
+      }
+    ],
+    "guideTitle": "游客导览建议",
+    "guideContent": "游客在参观时，可以先从**熟悉码头设施**开始；然后**参观资讯台**了解当地景点；接着**乘坐班车或出租车**探索罗阿坦岛美丽的海滩和珊瑚礁；最后**返回码头**购买纪念品并享用当地美食，然后准备离港。"
+  }
+}

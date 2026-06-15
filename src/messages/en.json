@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "title": "Mahogany Bay Cruise Terminal | Cruise Port",
+    "description": "Explore Mahogany Bay Cruise Terminal in Coxen Hole, Bay Islands, Honduras. A modern cruise terminal serving the beautiful Caribbean coast."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Mahogany Bay Cruise Terminal",
+    "subtitle": "Bay Islands · Honduras",
+    "rating": "4.7",
+    "reviewCount": "4,788",
+    "hours": "Cruise Terminal",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Explore Mahogany Bay Cruise Terminal",
+    "description": "Mahogany Bay Cruise Terminal is located in Coxen Hole, Bay Islands, Honduras. It is a modern cruise terminal serving the beautiful Caribbean coast, providing convenient services and facilities for cruise passengers visiting Roatán and the surrounding Bay Islands.",
+    "visitGuide": {
+      "title": "Visiting Tips",
+      "items": [
+        "Check cruise schedule before arrival",
+        "Prepare cash for local shopping and tips",
+        "Sun protection is essential - bring sunscreen and hat",
+        "Try local Honduran cuisine and seafood"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Modern Facilities: Well-equipped cruise terminal with shops, restaurants, and passenger services.",
+        "Prime Location: Located in Coxen Hole, the main gateway to Roatán Island.",
+        "Caribbean Access: Perfect starting point for exploring the beautiful Caribbean beaches and coral reefs.",
+        "Tourist Services: Information desk and tour arrangements available for visitors."
+      ]
+    }
+  },
+  "route": {
+    "title": "Tour Route",
+    "overview": "Discover the ideal route to explore Mahogany Bay Cruise Terminal and experience the beauty of the Caribbean coast.",
+    "steps": [
+      "Arrive at Mahogany Bay Cruise Terminal and familiarize yourself with the facilities and layout.",
+      "Visit the information desk to get maps and learn about local attractions and tour options.",
+      "Take a shuttle or taxi to explore the nearby beaches and coral reefs of Roatán.",
+      "Return to the terminal to shop for souvenirs and enjoy local cuisine before departure."
+    ],
+    "supplementsTitle": "Additional Tour Tips",
+    "supplements": [
+      "Please prepare some cash for shopping and local tours.",
+      "Sun protection is important - the Caribbean sun can be very strong.",
+      "Bring waterproof bags to protect your belongings during water activities.",
+      "Check the cruise departure time to ensure you return to the ship on time."
+    ]
+  },
+  "knowledge": {
+    "title": "Discover the Charm of Mahogany Bay",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historical Significance",
+        "content": "Mahogany Bay Cruise Terminal is an important maritime gateway in Honduras, serving thousands of cruise passengers annually. It plays a vital role in connecting the Caribbean tourism industry with the beautiful Bay Islands."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Landscape",
+        "content": "The terminal showcases the vibrant Caribbean culture of Honduras, with local artisans, food vendors, and cultural performances available for visitors to experience the authentic Honduran hospitality."
+      },
+      {
+        "id": "experience",
+        "title": "Visiting Experience",
+        "content": "Strolling through the terminal and surrounding areas, you can feel the tropical atmosphere and island charm. It's an excellent starting point for exploring the natural beauty and marine life of the Caribbean."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Mahogany Bay Cruise Terminal",
+    "type": "Type",
+    "typeValue": "Cruise Terminal",
+    "country": "Country",
+    "countryValue": "Honduras",
+    "city": "City",
+    "cityValue": "Coxen Hole, Bay Islands",
+    "googleRating": "Google Rating",
+    "address": "Address",
+    "addressValue": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "8GG3+W27 Coxen Hole, Bay Islands, Honduras"
+  },
+  "hours": {
+    "title": "Operating Hours",
+    "outdoor": "Terminal Area",
+    "outdoorTime": "Open according to cruise schedule",
+    "lighthouse": "Best Time to Visit",
+    "summer": "Dry Season (February-June)",
+    "summerTime": "Pleasant weather, ideal for cruise visits",
+    "winter": "Rainy Season (July-January)",
+    "winterTime": "Warm weather with occasional rain, still good for visits",
+    "warning": "Important Notes",
+    "warningTime": "Operating hours vary by cruise arrival schedule",
+    "tip": "Check cruise schedule before planning your visit"
+  },
+  "tickets": {
+    "title": "Ticket Information",
+    "outdoor": "Terminal Access",
+    "outdoorPrice": "Free for cruise passengers",
+    "lighthouse": "Shore Excursions",
+    "adults": "Guided Tours",
+    "adultsPrice": "Varies by tour operator",
+    "students": "Beach Activities",
+    "studentsPrice": "Many water sports available",
+    "children": "Recommendations",
+    "childrenPrice": "Book excursions in advance for best experience",
+    "card": "Additional Services",
+    "cardPrice": "Information desk and tour booking available"
+  },
+  "transport": {
+    "title": "Transportation",
+    "airport": "From the Airport",
+    "airportDesc": "Nearest airport: Juan Manuel Gálvez International Airport (RTB). Short distance to the cruise terminal.",
+    "selfDrive": "Driving",
+    "selfDriveDesc": "The terminal is located in Coxen Hole. Use navigation and follow signs to the cruise port.",
+    "bus": "Public Transport",
+    "busDesc": "Local buses and taxis are available from Coxen Hole to the terminal area.",
+    "intercity": "Cruise Shuttle",
+    "intercityDesc": "Most cruise lines provide shuttle service from the terminal to popular attractions.",
+    "cycling": "Other Means",
+    "cyclingDesc": "Taxis and water taxis are commonly used for getting around the island.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Bay Islands."
+  },
+  "gallery": {
+    "title": "Stunning Photos",
+    "subtitle": "The Beauty of Mahogany Bay Cruise Terminal",
+    "captions": [
+      "Terminal panoramic view",
+      "Cruise port facilities",
+      "Caribbean coastline",
+      "Terminal architecture",
+      "Passenger area",
+      "Ocean view",
+      "Tropical landscape",
+      "Harbor scenery",
+      "Terminal atmosphere",
+      "Docking area",
+      "Sea and sky",
+      "Full terminal view",
+      "Coastal charm",
+      "Island backdrop",
+      "Maritime heritage",
+      "Cruise ship arrival",
+      "Tropical paradise",
+      "Caribbean waters",
+      "Port facilities"
+    ],
+    "viewAll": "View more photos on Google Maps",
+    "showAllPhotos": "Show All Photos"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Review information can be viewed via Google Maps (external link).",
+    "moreReviews": "View More Reviews on Google Maps",
+    "items": [
+      {
+        "name": "Michael Thompson",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "Excellent cruise terminal with all the necessary facilities. Clean, well-organized, and the staff is very helpful. Great starting point for exploring Roatán."
+      },
+      {
+        "name": "Sarah Jenkins",
+        "date": "2 weeks ago",
+        "rating": 5,
+        "text": "Beautiful terminal with amazing Caribbean views. Easy to navigate and plenty of shopping options. The locals are friendly and welcoming."
+      },
+      {
+        "name": "David Rodriguez",
+        "date": "3 months ago",
+        "rating": 4,
+        "text": "Good terminal overall. Could use more seating areas, but the location is perfect for accessing the best beaches in Roatán."
+      },
+      {
+        "name": "Lisa Chen",
+        "date": "1 week ago",
+        "rating": 5,
+        "text": "Modern and efficient terminal. The information desk was very helpful in arranging our island tour. Highly recommend visiting the nearby beaches."
+      },
+      {
+        "name": "James Wilson",
+        "date": "2 months ago",
+        "rating": 4,
+        "text": "Nice facility with good amenities. The shuttle service to the beaches is convenient. Weather was perfect during our visit."
+      },
+      {
+        "name": "Maria Santos",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "text": "Wonderful experience at Mahogany Bay! The terminal is well-maintained and the Caribbean atmosphere is simply magical. Will definitely return."
+      },
+      {
+        "name": "Robert Miller",
+        "date": "1 month ago",
+        "rating": 4,
+        "text": "Decent cruise terminal. Everything you need is available here. The views of the ocean from the terminal are spectacular."
+      },
+      {
+        "name": "Jennifer Lee",
+        "date": "2 weeks ago",
+        "rating": 5,
+        "text": "Fantastic terminal! Very organized and clean. The local vendors offer great souvenirs and the food is delicious. A perfect Caribbean getaway."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Location & Map",
+    "subtitle": "8GG3+W27, Coxen Hole, Bay Islands, Honduras",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Mahogany Bay Cruise Terminal. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official Resources",
+    "officialLinks": {
+      "inm": {
+        "name": "Honduras National Immigration",
+        "url": "https://inm.gob.hn"
+      },
+      "hondurastravel": {
+        "name": "Honduras Tourism Portal",
+        "url": "https://honduras.travel"
+      },
+      "iht": {
+        "name": "Honduras National Tourism Institute",
+        "url": "https://www.iht.hn"
+      },
+      "zolitur": {
+        "name": "Bay Islands Tourism Free Zone",
+        "url": "https://zolitur.gob.hn"
+      },
+      "iaip": {
+        "name": "National Institute for Access to Public Information",
+        "url": "https://portalunico.iaip.gob.hn"
+      },
+      "sinit": {
+        "name": "National Territorial Information System",
+        "url": "https://sinit.hn"
+      }
+    },
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+      },
+      {
+        "heading": "3. Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and image hosting services. These services have their own privacy policies."
+      },
+      {
+        "heading": "4. Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "2. Use of Content",
+        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "3. Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+      },
+      {
+        "heading": "4. Intellectual Property",
+        "content": "The design and original content of this website are protected by copyright. Images are sourced from various providers and used under appropriate licenses. The use of Google Maps data complies with Google's terms of service."
+      },
+      {
+        "heading": "5. Limitation of Liability",
+        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Active",
+          "description": "It collects anonymous information about how visitors use our website."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "items": [
+        {
+          "name": "Personalized Ads",
+          "status": "Inactive",
+          "description": "It can show you relevant ads based on your interests."
+        }
+      ]
+    },
+    "save": "Save Preferences",
+    "saved": "Settings saved!",
+    "preferences": {
+      "items": [
+        {
+          "name": "User Preferences",
+          "status": "Active",
+          "description": "Saves your language preferences and website settings."
+        }
+      ],
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences."
+    },
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
+    "rejectAll": "Reject All"
+  },
+  "officialManagement": {
+    "title": "About Mahogany Bay Cruise Terminal",
+    "text": "Mahogany Bay Cruise Terminal is a modern cruise facility in Coxen Hole, Bay Islands, Honduras, serving as the gateway to the beautiful Caribbean coast and Roatán Island."
+  },
+  "historyTimeline": {
+    "title": "Historical Timeline",
+    "items": [
+      {
+        "year": "Development Period",
+        "title": "Development Period: Terminal Construction",
+        "plaque": "Modern Infrastructure (Cruise Terminal)",
+        "description": "Mahogany Bay Cruise Terminal was developed to accommodate the growing cruise tourism industry in Honduras, providing modern facilities for international cruise passengers."
+      },
+      {
+        "year": "Growth Phase",
+        "title": "Growth Phase: Tourism Expansion",
+        "plaque": "Tourism Development (Caribbean Gateway)",
+        "description": "The terminal experienced significant growth as more cruise lines added Roatán to their itineraries, becoming an important economic driver for the Bay Islands."
+      },
+      {
+        "year": "Modern Era",
+        "title": "Modern Era: Enhanced Services",
+        "plaque": "Service Improvement (Passenger Experience)",
+        "description": "With continuous improvements to facilities and services, the terminal now offers enhanced passenger experience including information services, shopping, and tour arrangements."
+      },
+      {
+        "year": "Future Vision",
+        "title": "Future Vision: Sustainable Tourism",
+        "plaque": "Sustainability (Eco-Tourism)",
+        "description": "Looking ahead, the terminal aims to promote sustainable tourism practices while maintaining its role as a premier Caribbean cruise destination, balancing growth with environmental protection."
+      }
+    ],
+    "guideTitle": "Visitor Guide Tip",
+    "guideContent": "When visiting, you can start by **familiarizing yourself with the terminal facilities**; then **visit the information desk** to learn about local attractions; next, **take a shuttle or taxi** to explore the beautiful beaches and coral reefs of Roatán; finally, **return to the terminal** to shop for souvenirs and enjoy local cuisine before departure."
+  }
+}
