@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "preview": "npm run build && wrangler dev --port 8787",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "next": "^15.1.0",
@@ -19,7 +21,9 @@
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "sharp": "^0.35.4",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "wrangler": "^4.129.1"
   }
 }

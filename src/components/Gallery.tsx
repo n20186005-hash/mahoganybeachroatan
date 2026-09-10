@@ -2,38 +2,42 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
+import { ATTRACTION } from '@/lib/site';
 
 const photoFiles = [
-  'mahogany-bay-cruise-terminal (1).jpg',
-  'mahogany-bay-cruise-terminal (3).jpg',
-  'mahogany-bay-cruise-terminal (4).jpg',
-  'mahogany-bay-cruise-terminal (5).jpg',
-  'mahogany-bay-cruise-terminal (6).jpg',
-  'mahogany-bay-cruise-terminal (7).jpg',
-  'mahogany-bay-cruise-terminal (8).jpg',
-  'mahogany-bay-cruise-terminal (9).jpg',
-  'mahogany-bay-cruise-terminal (10).jpg',
-  'mahogany-bay-cruise-terminal (11).jpg',
-  'mahogany-bay-cruise-terminal (12).jpg',
-  'mahogany-bay-cruise-terminal (13).jpg',
-  'mahogany-bay-cruise-terminal (14).jpg',
-  'mahogany-bay-cruise-terminal (15).jpg',
-  'mahogany-bay-cruise-terminal (16).jpg',
-  'mahogany-bay-cruise-terminal (17).jpg',
-  'mahogany-bay-cruise-terminal (18).jpg',
-  'mahogany-bay-cruise-terminal (19).jpg',
-  'mahogany-bay-cruise-terminal (20).jpg',
+  'mahogany-bay-cruise-terminal-1.jpg',
+  'mahogany-bay-cruise-terminal-13.jpg',
+  'mahogany-bay-cruise-terminal-14.jpg',
+  'mahogany-bay-cruise-terminal-15.jpg',
+  'mahogany-bay-cruise-terminal-16.jpg',
+  'mahogany-bay-cruise-terminal-17.jpg',
+  'mahogany-bay-cruise-terminal-18.jpg',
+  'mahogany-bay-cruise-terminal-19.jpg',
+  'mahogany-bay-cruise-terminal-2.jpg',
+  'mahogany-bay-cruise-terminal-3.jpg',
+  'mahogany-bay-cruise-terminal-4.jpg',
+  'mahogany-bay-cruise-terminal-5.jpg',
+  'mahogany-bay-cruise-terminal-6.jpg',
+  'mahogany-bay-cruise-terminal-7.jpg',
+  'mahogany-bay-cruise-terminal-8.jpg',
+  'mahogany-bay-cruise-terminal-9.jpg',
+  'mahogany-bay-cruise-terminal-10.jpg',
+  'mahogany-bay-cruise-terminal-11.jpg',
+  'mahogany-bay-cruise-terminal-12.jpg',
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
+  const tSeo = useTranslations('seo');
   const captions = t.raw('captions') as string[];
+  const altEntity = tSeo('galleryAltEntity');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
+  // 图片 Alt 语义绑定：周边/景观图 alt = 语义实体名 + 具体说明
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Mahogany Bay ${i + 1}`,
+    alt: `${altEntity} - ${captions?.[i] || `Photo ${i + 1}`}`,
   }));
 
   const visiblePhotos = photos;
@@ -78,7 +82,7 @@ export default function Gallery() {
                     alt={photo.alt}
                     className="w-full h-full object-cover rounded-lg"
                     style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
+                    loading={i === 0 ? 'eager' : 'lazy'}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
                     <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -91,7 +95,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-8">
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan"
+                href={ATTRACTION.mapsShareUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

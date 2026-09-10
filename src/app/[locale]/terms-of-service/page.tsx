@@ -8,21 +8,33 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const baseUrl = 'https://visitplazadelosmariachis.com';
+  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const baseUrl = 'https://mahoganybeachroatan.com';
   const zhUrl = `${baseUrl}/zh/terms-of-service`;
   const enUrl = `${baseUrl}/en/terms-of-service`;
   const esUrl = `${baseUrl}/es/terms-of-service`;
   const selfUrl = locale === 'zh' ? zhUrl : locale === 'en' ? enUrl : esUrl;
+  const label = messages?.terms?.title || 'Terms of Service';
+  const title = `${label} | ${messages?.hero?.title || 'Mahogany Bay Cruise Terminal'}`;
 
   return {
+    title,
+    description: label,
     alternates: {
       canonical: selfUrl,
       languages: {
+        'es': esUrl,
         'zh': zhUrl,
         'en': enUrl,
-        'es': esUrl,
-        'x-default': zhUrl,
+        'x-default': esUrl,
       },
+    },
+    openGraph: {
+      title,
+      description: label,
+      url: selfUrl,
+      siteName: messages?.hero?.title || 'Mahogany Bay Cruise Terminal',
+      type: 'website',
     },
   };
 }

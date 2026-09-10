@@ -1,4 +1,5 @@
 import { useTranslations, useMessages } from 'next-intl';
+import { ATTRACTION } from '@/lib/site';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -90,7 +91,7 @@ export default function Reviews() {
         {/* More reviews link — arrow only */}
         <div className="flex justify-center">
           <a
-            href="https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan"
+            href={ATTRACTION.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"

@@ -1,0 +1,15 @@
+# Cloudflare Workers 配置（静态站点 + /api/weather、/api/tide 边缘代理）
+name = "mahoganybay-roatan"
+main = "worker/index.js"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+# 站点静态文件由 npm run build 生成到 ./out，由 Cloudflare 托管；
+# Worker 优先运行，以便处理 "/" → "/es" 默认语言跳转与天气/潮汐数据代理。
+[assets]
+directory = "./out"
+binding = "ASSETS"
+run_worker_first = true
+
+[observability]
+enabled = true

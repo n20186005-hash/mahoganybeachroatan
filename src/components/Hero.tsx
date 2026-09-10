@@ -1,16 +1,18 @@
 import { useTranslations } from 'next-intl';
+import { ATTRACTION } from '@/lib/site';
 
 export default function Hero() {
   const t = useTranslations('hero');
-  const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan";
+  const tSeo = useTranslations('seo');
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/mahogany-bay-cruise-terminal (1).jpg"
-          alt="Mahogany Bay Cruise Terminal"
+          src={ATTRACTION.heroImagePath}
+          alt={tSeo('heroAlt')}
+          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
@@ -43,7 +45,7 @@ export default function Hero() {
               <span className="text-white text-sm">{t('hours')}</span>
             </div>
             <a
-              href={mapsUrl}
+              href={ATTRACTION.mapsShareUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1.5 bg-white/15 backdrop-blur-sm rounded-full px-4 py-2 hover:bg-white/25 transition-colors"

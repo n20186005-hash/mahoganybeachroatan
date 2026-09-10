@@ -1,4 +1,18 @@
 import { useTranslations, useMessages } from 'next-intl';
+import type { ReactNode } from 'react';
+
+function renderRichText(text: string): ReactNode {
+  // 将 **加粗** 的实体词转换为 <strong>
+  return text.split('**').map((part, i) =>
+    i % 2 === 1 ? (
+      <strong key={i} style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
+        {part}
+      </strong>
+    ) : (
+      <span key={i}>{part}</span>
+    )
+  );
+}
 
 export default function Intro() {
   const t = useTranslations('intro');
@@ -6,6 +20,12 @@ export default function Intro() {
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const geoItems: string[] = [
+    messages?.geo?.fullName,
+    messages?.geo?.city,
+    messages?.geo?.state,
+    messages?.geo?.country,
+  ].filter(Boolean);
 
   return (
     <section className="section-padding">
@@ -18,12 +38,64 @@ export default function Intro() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
+        {/* 首段等位声明：域名含义 <-> 官方全称 */}
+        {messages?.intro?.overview ? (
+          <p
+            className="text-lg leading-relaxed mb-6"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {renderRichText(messages.intro.overview)}
+          </p>
+        ) : null}
+
         <p
-          className="text-lg leading-relaxed mb-12"
+          className="text-lg leading-relaxed mb-6"
           style={{ color: 'var(--text-secondary)' }}
         >
           {t('description')}
         </p>
+
+        {/* 地理面包屑与归属层级 */}
+        {geoItems.length > 0 ? (
+          <nav
+            aria-label="Breadcrumb"
+            className="flex flex-wrap items-center gap-2 text-sm mb-8"
+          >
+            {geoItems.map((label, i) => (
+              <span key={i} className="flex items-center gap-2">
+                <span
+                  className="rounded-full px-3 py-1"
+                  style={{
+                    background: 'var(--bg-tertiary)',
+                    border: '1px solid var(--border-color)',
+                    color: 'var(--text-secondary)',
+                  }}
+                >
+                  {label}
+                </span>
+                {i < geoItems.length - 1 ? (
+                  <span style={{ color: 'var(--accent)' }} aria-hidden="true">
+                    →
+                  </span>
+                ) : null}
+              </span>
+            ))}
+          </nav>
+        ) : null}
+
+        {/* 周边语义集群描述 */}
+        {messages?.intro?.nearby ? (
+          <p
+            className="text-base leading-relaxed mb-12 p-4 rounded-xl"
+            style={{
+              background: 'var(--bg-tertiary)',
+              borderLeft: '4px solid var(--accent)',
+              color: 'var(--text-secondary)',
+            }}
+          >
+            {renderRichText(messages.intro.nearby)}
+          </p>
+        ) : null}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div

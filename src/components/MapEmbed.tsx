@@ -1,8 +1,11 @@
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
+import { ATTRACTION, mapsEmbedSrcForLocale } from '@/lib/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Mahogany+Bay+Cruise+Terminal+Roatan";
+  const locale = useLocale();
+  const embedSrc = mapsEmbedSrcForLocale(locale);
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -26,21 +29,21 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Mahogany+Bay+Cruise+Terminal,+Coxen+Hole,+Bay+Islands,+Honduras&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={embedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Mahogany Bay Cruise Terminal"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={`Google Maps - ${t('title')}`}
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href={mapsUrl}
+            href={ATTRACTION.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

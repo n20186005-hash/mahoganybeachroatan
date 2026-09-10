@@ -3,8 +3,8 @@ import { MetadataRoute } from 'next';
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://mahogany-bay-cruise-terminal.com';
-  const locales = ['zh', 'en', 'es'];
+  const baseUrl = 'https://mahoganybeachroatan.com';
+  const locales = ['es', 'zh', 'en'];
   const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
 
   const sitemap: MetadataRoute.Sitemap = [];

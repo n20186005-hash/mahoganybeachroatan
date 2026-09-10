@@ -1,0 +1,69 @@
+/* Mahogany Bay Cruise Terminal - service worker (PWA offline support) */
+const CACHE_NAME = 'mahogany-beach-roatan-v1';
+const PRECACHE_URLS = ['/'];
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches
+      .open(CACHE_NAME)
+      .then((cache) => cache.addAll(PRECACHE_URLS))
+      .then(() => self.skipWaiting())
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches
+      .keys()
+      .then((keys) =>
+        Promise.all(
+          keys
+            .filter((key) => key !== CACHE_NAME)
+            .map((key) => caches.delete(key))
+        )
+      )
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  const request = event.request;
+  const url = new URL(request.url);
+
+  // Only handle same-origin GET requests.
+  if (request.method !== 'GET' || url.origin !== self.location.origin) {
+    return;
+  }
+
+  // For navigations: network-first, falling back to cache / cached shell.
+  if (request.mode === 'navigate') {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          return response;
+        })
+        .catch(() =>
+          caches.match(request).then((cached) => cached || caches.match('/'))
+        )
+    );
+    return;
+  }
+
+  // For static assets: cache-first, then network and populate the cache.
+  event.respondWith(
+    caches.match(request).then((cached) => {
+      const networkFetch = fetch(request)
+        .then((response) => {
+          if (response && response.status === 200 && response.type === 'basic') {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(() => cached);
+      return cached || networkFetch;
+    })
+  );
+});

@@ -1,7 +1,392 @@
 {
+  "weather": {
+    "title": "Live Weather & Multi-Day Forecast",
+    "subtitle": "Current conditions around Coxen Hole and the trend for the coming days, so you know whether to pack an umbrella or plan a swim.",
+    "updated": "Updated",
+    "now": "Now",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "windDirection": "Wind dir",
+    "uv": "UV index",
+    "precip": "Rain chance",
+    "forecastTitle": "Multi-Day Forecast",
+    "today": "Today",
+    "codes": {
+      "clear": "Clear",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "showers": "Showers",
+      "snow": "Snow",
+      "storm": "Thunderstorms"
+    },
+    "loading": "Loading weather…",
+    "errorTitle": "Weather temporarily unavailable",
+    "errorHint": "We cannot fetch the local short-term forecast right now. Try again shortly, or check the latest conditions before heading out.",
+    "retry": "Try again",
+    "disclaimer": "Short-term forecasts are for reference only; always confirm current conditions before marine or outdoor activities.",
+    "advice": {
+      "title": "Today's Activity Advice",
+      "outfitTitle": "What to Wear",
+      "playTitle": "What to Do",
+      "itemTitle": "What to Pack",
+      "riskTitle": "Safety Alert",
+      "playClear": "Clear and pleasant — great for outdoor and beach time; catch sunrise and sunset views early or late in the day.",
+      "playPartly": "Partly cloudy without heavy heat — good for snorkelling, beach walks and water play.",
+      "playCloudy": "Soft light and no harsh sun — comfortable for long outdoor strolls and photos.",
+      "playRainLikely": "Rain is likely today: plan outdoor and water activities around the dry gaps, and keep an indoor backup.",
+      "playDrizzle": "Light rain limits outdoor enjoyment; wet rocks and boardwalks near the sea can be slippery — watch your step.",
+      "playShowers": "Expect passing showers today: use the dry gaps for outdoor time and keep an umbrella close.",
+      "playRain": "Not a good day for outdoor or water activities; boat rides and the sky chair may stop — prefer indoor areas.",
+      "playStorm": "Thunderstorms: water and marine activities will likely be suspended; do not linger on the beach, under trees or on high ground.",
+      "playWind5": "It is windy — some boat trips and open-air rides may be cancelled; confirm today's schedule first.",
+      "playHot": "UV is very strong between 10 a.m. and 3 p.m.; keep long outdoor time for early morning or late afternoon.",
+      "outfitHeat": "It feels hot — wear light, breathable clothing and keep drinking water.",
+      "outfitGap": "Big day-to-night temperature swing — bring a light layer for the evening.",
+      "outfitWet": "Expect rain — wear a water-resistant jacket and non-slip shoes.",
+      "outfitWind": "Very windy — hats can blow away and loose long skirts are impractical.",
+      "itemRain": "Umbrella or raincoat",
+      "itemUmbrella": "Folding umbrella",
+      "itemRaincoat": "Raincoat (skip long umbrellas in the wind)",
+      "itemSun": "Sunscreen, sunglasses, sun hat",
+      "itemWater": "Drinking water",
+      "riskRain": "Heavy rain: avoid low-lying ground and hillsides; watch for flash puddles and landslides.",
+      "riskStorm": "Lightning risk: do not shelter on the beach, under trees or on high ground.",
+      "riskWind": "Very strong wind: stay away from coastal rocks, dead trees and temporary structures; most marine activities are cancelled.",
+      "riskFog": "Poor visibility: ferries and flights may be delayed — travel slowly and watch the traffic."
+    }
+  },
+  "tide": {
+    "title": "Tides & Sea Conditions",
+    "subtitle": "High tide, low tide and when to get in the water",
+    "nowLabel": "Right now",
+    "rising": "Tide is rising",
+    "falling": "Tide is falling",
+    "slack": "Nearing slack water (turning soon)",
+    "nextHigh": "Next high tide",
+    "nextLow": "Next low tide",
+    "inTime": "in about {h} h {m} min",
+    "inMin": "in about {m} min",
+    "soon": "imminent",
+    "high": "High",
+    "low": "Low",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "listTitle": "Upcoming tide times",
+    "height": "Level",
+    "seaTitle": "Sea conditions",
+    "sst": "Water temp",
+    "wave": "Wave height",
+    "wavePeriod": "Wave period",
+    "seaNote0": "The sea is fairly calm — good for swimming and snorkelling.",
+    "seaNote1": "A few waves out there; watch your energy in the water and stay in the shallows for an easy dip.",
+    "seaNote2": "Waves are building — snorkelling needs experience; keep to shallow water.",
+    "seaNote3": "Rough sea — not advised for swimming; never go in alone.",
+    "footer": "Tides here are small. At low tide more reef flat and sandbank are exposed — wear non-slip shoes on the rocks and watch the swells.",
+    "disclaimer": "Tide times are calculated from public tide tables and are for reference only; always check conditions at the shore before water activities.",
+    "loading": "Reading Roatan tide times…",
+    "errorTitle": "Tide data is unavailable right now",
+    "errorHint": "Please try again shortly, or check the tide board on the beach.",
+    "retry": "Try again"
+  },
+  "facilities": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "A type-neutral overview to help travellers of all kinds plan ahead.",
+    "note": "This is a neutral, type-based overview and is not a recommendation of any specific venue or brand. Opening status and fees may change — always confirm on site.",
+    "items": [
+      {
+        "name": "Restrooms & Accessibility",
+        "desc": "Public restrooms are available around the terminal's waiting and activity areas, usually with accessible stalls and family/changing rooms. Main entrances and walkways are generally barrier-free.",
+        "tip": "On busy ship days crowds grow quickly, so use the facilities closest to your gangway."
+      },
+      {
+        "name": "Parking & Shuttles",
+        "desc": "Parking areas for private cars and tour coaches sit near the terminal, and taxis and shared minibuses (colectivos) run within walking distance to the island's main towns.",
+        "tip": "Many visitors walk to town or take a colectivo instead of renting a car."
+      },
+      {
+        "name": "Dining Options",
+        "desc": "The terminal and Coxen Hole offer a range of eateries by type — fast food, cafés, Caribbean restaurants and street-food stalls — for every budget.",
+        "tip": "Small vendors are often cash-only, so carry some local currency; eat well before swimming."
+      },
+      {
+        "name": "Lodging Types",
+        "desc": "On-island accommodation comes in many types — resorts, boutique hotels, guesthouses and hostels — mainly around West Bay, West End and local communities.",
+        "tip": "If staying overnight, book a registered property, keep your confirmation, and arrange transfers in advance."
+      },
+      {
+        "name": "Shops & Essentials",
+        "desc": "The terminal shopping village, town supermarkets and convenience stores sell souvenirs, drinks, daily essentials and basic medicines.",
+        "tip": "Shop traffic follows the ship schedule; do errands in the morning to avoid the rush."
+      },
+      {
+        "name": "Fuel & Charging",
+        "desc": "Fuel stations on Roatán are limited and sit mostly along main roads; some lodgings and public areas offer power outlets for devices.",
+        "tip": "Top up before long drives and carry a power bank and adapter."
+      },
+      {
+        "name": "Health & Emergency",
+        "desc": "Coxen Hole has hospitals and clinics; the terminal area usually keeps first-aid and security staff, and town pharmacies stock common medicines.",
+        "tip": "Keep personal medication with you in its labelled container; contact port staff or local emergency services if needed."
+      },
+      {
+        "name": "Connectivity",
+        "desc": "Free Wi-Fi is common at the terminal and main public areas, and local carrier stores sell prepaid SIM cards around the island.",
+        "tip": "Check your roaming plan before leaving the ship, or pick up a local SIM to stay connected."
+      }
+    ]
+  },
+  "seasonPlan": {
+    "title": "Seasonal Visit Planner",
+    "subtitle": "How weather, water and wildlife change through the year around Roatán.",
+    "basedOn": "A general guide based on long-term seasonal climate patterns; combine it with the live weather above and any official advisories before you go.",
+    "columns": {
+      "season": "Period",
+      "weather": "Weather & Climate",
+      "water": "Sea & Visibility",
+      "wildlife": "Marine Life Highlights",
+      "advice": "Planning Advice"
+    },
+    "rows": [
+      {
+        "season": "Dec – Feb",
+        "weather": "Early dry season: steady trade winds, around 24–29°C, little rain.",
+        "water": "Sea around 27°C with good visibility; generally calm seas on the north reef.",
+        "wildlife": "Migratory birds and reef fish are active — good for birdwatching and snorkelling.",
+        "advice": "Peak international holiday season; book transport and stays well in advance."
+      },
+      {
+        "season": "Mar – May",
+        "weather": "Driest part of the year: strong sun, gentle breezes, 26–31°C.",
+        "water": "Usually the best visibility of the year — the prime window for snorkelling and diving.",
+        "wildlife": "Coral spawning approaches and whale-shark sightings are relatively common from March to May.",
+        "advice": "Best months for the water and underwater photography; use sunscreen and hydration, avoid midday heat."
+      },
+      {
+        "season": "Jun – Aug",
+        "weather": "Rainy season begins: sunny spells with short showers, warmest at 27–32°C.",
+        "water": "After rain the near shore can briefly turn turbid or drift with sargassum; it usually clears quickly.",
+        "wildlife": "Turtle nesting and hatchling season, with more offshore pelagic activity.",
+        "advice": "Carry a light rain jacket; plan water activities for the morning, as showers peak in the afternoon."
+      },
+      {
+        "season": "Sep – Nov",
+        "weather": "Peak of the wet season with higher wind and rain, overlapping the Atlantic hurricane season (Sep–Oct).",
+        "water": "Choppier seas and more variable visibility; watch currents and swell at times.",
+        "wildlife": "Water quality can vary in some areas, though reefs and fish remain worth seeing — judge on site.",
+        "advice": "Watch forecasts and port updates, keep a backup plan; fewer crowds and lower prices reward flexible travellers."
+      }
+    ]
+  },
+  "audiencePlans": {
+    "title": "Visit Plans by Traveller Type",
+    "subtitle": "Three tailored routes matched to your group, pace and priorities.",
+    "bestTimeLabel": "Best timing",
+    "stepsLabel": "Suggested flow",
+    "tipsLabel": "Tips",
+    "plans": [
+      {
+        "id": "family",
+        "name": "Families with Children",
+        "desc": "A relaxed, safe water experience — shallow water, shade and a gentle pace come first.",
+        "best": "Dry-season mornings or calm-weather days",
+        "steps": [
+          "Grab a map at the info point and confirm today's ship and re-boarding times.",
+          "Take the sky chair or a gentle path to the shallow swimming area; let kids ease into the water.",
+          "Rest and refuel in shaded spots; eat outside peak hours.",
+          "Spend about an hour on shallow snorkelling or sand play.",
+          "Keep return time in reserve and pick up souvenirs before boarding."
+        ],
+        "tips": [
+          "Supervise children at all times with proper floatation gear.",
+          "Use physical sun protection plus child-safe sunscreen.",
+          "Stay clear of urchins and sharp coral; follow lifeguard advice."
+        ]
+      },
+      {
+        "id": "photo",
+        "name": "Photography & Nature",
+        "desc": "Focused on the terminal, the lagoon and sea-and-sky light — bring a telephoto and a waterproof housing.",
+        "best": "One to two hours after sunrise, or low-angle light before sunset",
+        "steps": [
+          "Scout the boardwalk, the sky-chair high line and the beach for viewpoints.",
+          "Shoot wide panoramas and human details in the soft morning light.",
+          "Snorkel with a waterproof housing and shoot coral and fish with the sun behind you.",
+          "Head to a near-shore observation point for waders and sunset silhouettes.",
+          "End with the terminal under dusk lights before re-boarding."
+        ],
+        "tips": [
+          "Respect your subjects — no feeding or disturbing wildlife.",
+          "Never aim flashes at coral or marine animals.",
+          "For drones, check local airspace rules and register as required."
+        ]
+      },
+      {
+        "id": "accessible",
+        "name": "Low-Energy & Accessible",
+        "desc": "Flat walkways, viewpoints and short transfers — almost no long walking or climbing required.",
+        "best": "Weekday mornings with fewer people and cooler ground",
+        "steps": [
+          "Enter via the accessible route and ask about wheelchair and transfer assistance.",
+          "Take the sky chair or an accessible shuttle to the waterfront viewpoint.",
+          "Rest in a shaded area overlooking the lagoon and the docked ship.",
+          "If comfortable, take a slow 10–15 minute stroll along a flat path.",
+          "Return indoors at the terminal with plenty of re-boarding buffer."
+        ],
+        "tips": [
+          "Tell the ship or terminal about assistance needs in advance and book accessible transfers.",
+          "Wear non-slip shoes and carry medication and water.",
+          "Avoid the hottest midday hours."
+        ]
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Suggested General Routes: Half-Day & Full-Day",
+    "subtitle": "Two flexible flows based on your port time — adjust freely to your energy and interests.",
+    "note": "Type-neutral general suggestions; exact transport, times and meeting points follow the terminal's daily schedule.",
+    "options": [
+      {
+        "id": "half",
+        "name": "Half-Day Classic",
+        "duration": "About 4 hours · suited to a morning or afternoon call",
+        "pace": "Comfortable pace, ideal for a first visit",
+        "stops": [
+          {
+            "title": "Arrival · Information",
+            "detail": "Pick up a map and the day's programme, confirm re-boarding time and change a little cash."
+          },
+          {
+            "title": "Sky Chair · Waterfront Views",
+            "detail": "Ride the aerial chair or stroll the coastal path to the beach for views of the reef with the ship behind."
+          },
+          {
+            "title": "Shallow Water · Snorkel",
+            "detail": "Enter the supervised shallows and snorkel for 40–60 minutes watching near-shore fish."
+          },
+          {
+            "title": "Dining · Shopping",
+            "detail": "Eat outside peak hours and browse crafts and local keepsakes."
+          },
+          {
+            "title": "Return · Boarding Buffer",
+            "detail": "Be back at the gangway 30–45 minutes before departure, per terminal signs."
+          }
+        ]
+      },
+      {
+        "id": "full",
+        "name": "Full-Day Explorer",
+        "duration": "About 7–8 hours · suited to a near-full-day call",
+        "pace": "Half-day highlights plus an island excursion",
+        "stops": [
+          {
+            "title": "Arrival · Quick Start",
+            "detail": "Confirm ship time and meeting point, then set off while the morning is still cool."
+          },
+          {
+            "title": "Morning · Terminal Highlights",
+            "detail": "Complete the sky chair and shallow snorkel while the water looks its best."
+          },
+          {
+            "title": "Midday · Island Exploration",
+            "detail": "Take a colectivo to West End or West Bay for a Caribbean-style lunch."
+          },
+          {
+            "title": "Afternoon · Beach & Stroll",
+            "detail": "Swim again in West Bay's shallows or wander West End's street life at a slow pace."
+          },
+          {
+            "title": "Return · Connections",
+            "detail": "Head back by colectivo with 60–90 minutes to spare for traffic."
+          },
+          {
+            "title": "Departure · Sunset Goodbye",
+            "detail": "Do final shopping at the terminal and catch the Caribbean sunset before boarding."
+          }
+        ]
+      }
+    ]
+  },
+  "stewardship": {
+    "title": "Reef Science & Visitor Responsibility",
+    "subtitle": "Understand a little ocean ecology — your visit becomes easier and the reef lasts longer.",
+    "scienceTitle": "Why this place is special — a quick reef ecology primer",
+    "scienceItems": [
+      {
+        "name": "Coral reefs: the rainforests of the sea",
+        "text": "Tiny coral polyps and their symbiotic algae build limestone skeletons that shelter roughly a quarter of all marine species. Roatán is part of the Mesoamerican Reef, the world's second-largest barrier reef system."
+      },
+      {
+        "name": "Seagrass and mangroves as guardians",
+        "text": "Seagrass beds nurse turtles and juvenile fish while filtering the water; mangroves stabilise shores. Together they complete the lagoon's living chain."
+      },
+      {
+        "name": "Daily life of fish and turtles",
+        "text": "Parrotfish graze the reef and keep it healthy; hawksbill and green turtles forage year-round near shore. Meet a whale shark? Keep your distance and never chase."
+      },
+      {
+        "name": "An island born of limestone",
+        "text": "Roatán is a raised limestone island — centuries of erosion shaped the ridges, caves and bays you see today."
+      }
+    ],
+    "dutyTitle": "Your visit, your footprint",
+    "dutyItems": [
+      {
+        "name": "Do not touch or stand on coral",
+        "text": "Coral is fragile — one touch can kill a colony. Snorkel with a respectful distance and use your fins for control."
+      },
+      {
+        "name": "Never feed marine life",
+        "text": "Feeding changes wild behaviour and burdens local waters."
+      },
+      {
+        "name": "Choose reef-friendly sun care",
+        "text": "Before swimming, limit sunscreens with oxybenzone and similar filters; prefer shade, rash guards and reef-safe products."
+      },
+      {
+        "name": "Carry your rubbish out",
+        "text": "Use a refillable bottle and reusable bags, avoid single-use plastics, and leave no litter on sand or sea."
+      },
+      {
+        "name": "Do not buy coral or wildlife souvenirs",
+        "text": "Many 'keepsakes' come from protected waters — take only photos and memories."
+      },
+      {
+        "name": "Follow on-site rules",
+        "text": "Heed buoys, restricted areas and opening times, and follow lifeguard and port staff instructions."
+      }
+    ]
+  },
+  "heritage": {
+    "title": "Stories Behind the Name: From a Pirate Cove to a Modern Cruise Gateway",
+    "subtitle": "Background tales and local lore that give Coxen Hole and Mahogany Bay their character.",
+    "note": "Compiled for general interest from published local histories and oral tradition; details may vary between sources.",
+    "cards": [
+      {
+        "heading": "Pirate days and the name 'Coxen Hole'",
+        "text": "The most popular local account says Coxen Hole takes its name from John Coxen, an English pirate captain active in these waters in the 1600s. What drew him was this sheltered, deep natural bay — his crew is said to have used it as an anchorage, and a hint of that 'pirate harbour' romance survives in the town today."
+      },
+      {
+        "heading": "1797: the Garifuna sea epic",
+        "text": "In 1797 a group of Garifuna people, removed from St Vincent, paddled dugout canoes to Roatán — beginning the celebrated chapter of this African-Caribbean people along the Central American coast. Their drums, language and cooking remain a core of Bay Islands culture."
+      },
+      {
+        "heading": "English, Spanish and the change of 1859",
+        "text": "Before becoming Honduran, the Bay Islands sat under strong British influence, which is why English and Spanish still live side by side. Following treaties signed in 1859, the islands formally joined Honduras as the modern Bay Islands department."
+      },
+      {
+        "heading": "'Mahogany Bay' and the island's timber memory",
+        "text": "In the age of sail and colonial trade, mahogany and logwood ranked among Central America's most valuable exports, and timber camps once dotted the island's interior. Locals often link the name Mahogany Bay to that history — whatever its exact origin, it keeps alive a memory of timber and tall ships."
+      }
+    ]
+  },
   "meta": {
-    "title": "Mahogany Bay Cruise Terminal | Cruise Port",
-    "description": "Explore Mahogany Bay Cruise Terminal in Dixon Cove, Roatán, Honduras. A modern cruise terminal serving the beautiful Caribbean coast."
+    "title": "Mahogany Bay Cruise Terminal (Coxen Hole) | Visitor Guide & Location",
+    "description": "Discover Mahogany Bay Cruise Terminal, the iconic cruise port in Coxen Hole, Bay Islands, Honduras. View the location map, opening details, nearby West Bay Beach attractions, and travel tips."
   },
   "header": {
     "home": "Home",
@@ -11,16 +396,28 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Mahogany Bay Cruise Terminal",
-    "subtitle": "Roatán · Honduras",
+    "title": "Mahogany Bay Cruise Terminal (Coxen Hole)",
+    "subtitle": "Coxen Hole · Bay Islands · Honduras",
     "rating": "4.7",
-    "reviewCount": "4,788",
+    "reviewCount": "4,819",
     "hours": "Cruise Terminal",
     "openMaps": "View Location"
   },
+  "geo": {
+    "fullName": "Mahogany Bay Cruise Terminal",
+    "city": "Coxen Hole",
+    "state": "Bay Islands",
+    "country": "Honduras"
+  },
+  "seo": {
+    "heroAlt": "Mahogany Bay Cruise Terminal - Main view in Coxen Hole, Bay Islands, Honduras",
+    "galleryAltEntity": "Mahogany Bay Cruise Terminal, Coxen Hole, Honduras"
+  },
   "intro": {
-    "title": "Explore Mahogany Bay Cruise Terminal",
-    "description": "Mahogany Bay Cruise Terminal is located in Dixon Cove, Roatán, Honduras. It is a modern cruise terminal serving the beautiful Caribbean coast, providing convenient services and facilities for cruise passengers visiting Roatán and the surrounding Roatán.",
+    "title": "About Mahogany Bay Cruise Terminal",
+    "overview": "Welcome to **Mahogany Bay Cruise Terminal**, widely recognized as the heart of **Mahogany Bay**, Roatán's premier cruise port. Located in Coxen Hole, in the **Bay Islands** department of **Honduras**, this destination serves as the primary gateway for cruise travelers visiting the island and the surrounding Caribbean coast.",
+    "description": "Mahogany Bay Cruise Terminal is located in Coxen Hole, on the island of Roatán in the Bay Islands of Honduras. It is a modern cruise terminal serving the beautiful Caribbean coast, providing convenient services and facilities for cruise passengers visiting Roatán and the surrounding Bay Islands.",
+    "nearby": "When visiting **Mahogany Bay Cruise Terminal**, visitors can easily explore surrounding points of interest, including **West Bay Beach** and **West End Village**, two of Roatán's most popular destinations for snorkeling, dining and local culture.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
@@ -34,7 +431,7 @@
       "title": "Highlights",
       "items": [
         "Modern Facilities: Well-equipped cruise terminal with shops, restaurants, and passenger services.",
-        "Prime Location: Located in Dixon Cove, the main gateway to Roatán Island.",
+        "Prime Location: Located in Coxen Hole, Roatán, the main gateway to Roatán Island.",
         "Caribbean Access: Perfect starting point for exploring the beautiful Caribbean beaches and coral reefs.",
         "Tourist Services: Information desk and tour arrangements available for visitors.",
         "Carnival Corporation Exclusive: A private, exclusive port built and managed by Carnival Corporation, primarily serving its cruise brands.",
@@ -66,7 +463,7 @@
       {
         "id": "history",
         "title": "Historical Significance",
-        "content": "Mahogany Bay Cruise Terminal is an important maritime gateway in Honduras, serving thousands of cruise passengers annually. It plays a vital role in connecting the Caribbean tourism industry with the beautiful Roatán."
+        "content": "Mahogany Bay Cruise Terminal is an important maritime gateway in Honduras, serving thousands of cruise passengers annually. It plays a vital role in connecting the Caribbean tourism industry with the beautiful Bay Islands."
       },
       {
         "id": "culture",
@@ -89,16 +486,16 @@
     "country": "Country",
     "countryValue": "Honduras",
     "city": "City",
-    "cityValue": "Dixon Cove, Roatán",
+    "cityValue": "Coxen Hole, Roatán",
     "googleRating": "Google Rating",
     "address": "Address",
-    "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
+    "addressValue": "8GG3+W27, Coxen Hole, Roatán, Honduras",
     "plusCode": "Plus Code",
-    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras",
+    "plusCodeValue": "8GG3+W27 Coxen Hole, Roatán, Honduras",
     "alias": "Alias",
     "aliasValue": "Isla Tropicale",
     "tipLabel": "Note:",
-    "addressTip": "On Google Maps and other navigation apps, the terminal's address may appear as Coxen Hole, but its actual location is in Dixon Cove. Please be careful not to confuse it with the other cruise port in the center of Coxen Hole."
+    "addressTip": "On Google Maps and other navigation apps, the terminal's official address is listed as Coxen Hole, Roatán, in the Bay Islands of Honduras. Roatán also has a separate cruise dock within Coxen Hole town center, so please check your destination carefully to avoid going to the wrong port."
   },
   "hours": {
     "title": "Operating Hours",
@@ -132,15 +529,15 @@
     "airport": "From the Airport",
     "airportDesc": "Nearest airport: Juan Manuel Gálvez International Airport (RTB). Short distance to the cruise terminal.",
     "selfDrive": "Driving",
-    "selfDriveDesc": "The terminal is located in Dixon Cove. Use navigation and follow signs to the cruise port.",
+    "selfDriveDesc": "The terminal is located in Coxen Hole. Use navigation and follow signs to the cruise port.",
     "bus": "Public Transport",
-    "busDesc": "Local buses and taxis are available from Dixon Cove to the terminal area.",
+    "busDesc": "Local buses and taxis are available from Coxen Hole to the terminal area.",
     "intercity": "Cruise Shuttle",
     "intercityDesc": "Most cruise lines provide shuttle service from the terminal to popular attractions.",
     "cycling": "Other Means",
     "cyclingDesc": "Taxis and water taxis are commonly used for getting around the island.",
     "tips": "Travel Tips",
-    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Roatán.",
+    "tipsDesc": "Mahogany Bay Cruise Terminal is the perfect gateway to explore Roatán and the Bay Islands.",
     "routesTitle": "Popular Routes",
     "route1": "West Bay Beach",
     "route1Desc": "About 30-40 minutes by shuttle or taxi. This is the most popular beach on the island, perfect for snorkeling and relaxing.",
@@ -148,6 +545,27 @@
     "route2Desc": "About 25-30 minutes drive. A great place to experience local island life with many restaurants, dive shops, and bars.",
     "route3": "French Key / Sloth Hangout",
     "route3Desc": "About 15-20 minutes drive. Get up close with Honduran native wildlife like sloths, monkeys, and macaws."
+  },
+  "around": {
+    "title": "Landmarks & Attractions Around Mahogany Bay",
+    "lead": "From Mahogany Bay Cruise Terminal, visitors can easily reach the following landmarks and points of interest around Coxen Hole:",
+    "items": [
+      {
+        "name": "West Bay Beach",
+        "desc": "One of Roatán's most popular beaches, ideal for snorkeling, water sports and relaxing; about 30-40 minutes by shuttle or taxi from the terminal.",
+        "mapQuery": "West Bay Beach, Roatan, Honduras"
+      },
+      {
+        "name": "West End Village",
+        "desc": "Famous for diving, restaurants and island nightlife; about 25-30 minutes' drive away.",
+        "mapQuery": "West End, Roatan, Honduras"
+      },
+      {
+        "name": "Gumbalimba Park",
+        "desc": "An eco-adventure park near West End where you can see macaws, monkeys and other native wildlife.",
+        "mapQuery": "Gumbalimba Park, Roatan, Honduras"
+      }
+    ]
   },
   "gallery": {
     "title": "Stunning Photos",
@@ -232,9 +650,76 @@
     ]
   },
   "mapSection": {
-    "title": "Location & Map",
-    "subtitle": "8GG3+W27, Dixon Cove, Roatán, Honduras",
+    "title": "Location & How to Visit Mahogany Bay in Coxen Hole",
+    "subtitle": "Official address: 8GG3+W27, Coxen Hole, Roatán, Bay Islands, Honduras",
     "openMaps": "View on Google Maps"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions about Mahogany Bay Cruise Terminal",
+    "intro": "Quick answers to help you plan your visit to Mahogany Bay Cruise Terminal:",
+    "items": [
+      {
+        "q": "Where is Mahogany Bay Cruise Terminal located?",
+        "a": "Mahogany Bay Cruise Terminal is located in Coxen Hole, on the island of Roatán, in the Bay Islands department of Honduras. Its official address is 8GG3+W27, Coxen Hole, Bay Islands, Honduras."
+      },
+      {
+        "q": "Is it free to visit Mahogany Bay?",
+        "a": "Access to the terminal area is free for cruise passengers arriving at the port. Some facilities, such as the Magical Flying Beach Chair, water sports and lounger rentals, may require separate payment."
+      },
+      {
+        "q": "Which cruise lines dock at Mahogany Bay?",
+        "a": "The terminal is operated by Carnival Corporation, and its brands, such as Carnival Cruise Line, Holland America Line and Princess Cruises, are the main cruise lines calling at the port."
+      },
+      {
+        "q": "How far is the terminal from Roatán's airport?",
+        "a": "Juan Manuel Gálvez International Airport (RTB) is located close to Coxen Hole; the taxi ride from the terminal usually takes about 10-15 minutes."
+      },
+      {
+        "q": "When is the terminal open?",
+        "a": "The terminal only opens on days when cruise ships are in port, and opening times follow the vessels' arrival and departure schedules. Please confirm the day's schedule with your cruise line before traveling."
+      },
+      {
+        "q": "How do I get to the beach from the terminal?",
+        "a": "You can take the Magical Flying Beach Chair (chairlift) or walk along the path to Mahogany Bay's beach and shopping village to enjoy the Caribbean sun and sand."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & Official References",
+    "lead": "The information on this page is cross-checked with the following official Honduran authorities (national, departmental and municipal) for accuracy:",
+    "items": [
+      {
+        "name": "Honduras National Immigration Institute (INM)",
+        "scope": "Manages national immigration control and maritime border-entry ports, including cruise terminals such as Mahogany Bay.",
+        "url": "https://inm.gob.hn"
+      },
+      {
+        "name": "Honduras Institute of Tourism (IHT)",
+        "scope": "Honduras' national tourism authority for tourism policy, promotion and development.",
+        "url": "https://www.iht.hn"
+      },
+      {
+        "name": "Honduras National Tourism Portal (honduras.travel)",
+        "scope": "Official travel and tourism information portal of the Government of Honduras.",
+        "url": "https://honduras.travel"
+      },
+      {
+        "name": "ZOLITUR - Bay Islands Tourism Free Zone Authority",
+        "scope": "The official body that regulates and develops tourism in the Bay Islands department.",
+        "url": "https://zolitur.gob.hn"
+      },
+      {
+        "name": "Municipal Mayor's Office of Roatán",
+        "scope": "Local government of the municipality where the terminal is located (Coxen Hole).",
+        "url": "https://muniroatan.gob.hn"
+      },
+      {
+        "name": "National Territorial Information System (SINIT)",
+        "scope": "Official database of territorial boundaries and geospatial data for Honduras.",
+        "url": "https://sinit.hn"
+      }
+    ],
+    "note": "For official updates and regional tourism information, visit the Honduras / Bay Islands Official Tourism Portal."
   },
   "footer": {
     "rights": "© 2026 Mahogany Bay Cruise Terminal. All rights reserved.",
@@ -268,6 +753,7 @@
         "url": "https://sinit.hn"
       }
     },
+    "imageRights": "All images displayed on this website are the property of their respective photographers and are protected by copyright.",
     "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
   },
   "privacy": {
@@ -366,10 +852,10 @@
   },
   "officialManagement": {
     "title": "About Mahogany Bay Cruise Terminal",
-    "text": "Mahogany Bay Cruise Terminal is a modern cruise facility in Dixon Cove, Roatán, Honduras, owned and managed by Carnival Corporation, serving as a private exclusive gateway to the beautiful Caribbean coast and Roatán Island."
+    "text": "Mahogany Bay Cruise Terminal is a modern cruise facility in Coxen Hole, Roatán, Bay Islands, Honduras, owned and managed by Carnival Corporation, serving as a private exclusive gateway to the beautiful Caribbean coast and Roatán Island."
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "History & Significance of Mahogany Bay Cruise Terminal",
     "items": [
       {
         "year": "Development Period",
@@ -381,7 +867,7 @@
         "year": "Growth Phase",
         "title": "Growth Phase: Tourism Expansion",
         "plaque": "Tourism Development (Caribbean Gateway)",
-        "description": "The terminal experienced significant growth as more cruise lines added Roatán to their itineraries, becoming an important economic driver for the Roatán."
+        "description": "The terminal experienced significant growth as more cruise lines added Roatán to their itineraries, becoming an important economic driver for the Bay Islands."
       },
       {
         "year": "Modern Era",

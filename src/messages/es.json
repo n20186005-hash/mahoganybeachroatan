@@ -1,7 +1,392 @@
 {
+  "weather": {
+    "title": "Clima en vivo y pronóstico por varios días",
+    "subtitle": "Condiciones actuales en Coxen Hole y la tendencia de los próximos días, para saber si llevar paraguas o planear un baño de mar.",
+    "updated": "Actualizado",
+    "now": "Ahora",
+    "feelsLike": "Sensación",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "windDirection": "Dirección",
+    "uv": "Índice UV",
+    "precip": "Prob. de lluvia",
+    "forecastTitle": "Pronóstico por varios días",
+    "today": "Hoy",
+    "codes": {
+      "clear": "Despejado",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "showers": "Chubascos",
+      "snow": "Nieve",
+      "storm": "Tormentas"
+    },
+    "loading": "Cargando el clima…",
+    "errorTitle": "Clima temporalmente no disponible",
+    "errorHint": "No podemos obtener el pronóstico local en este momento. Inténtelo de nuevo en unos minutos o consulte las condiciones más recientes antes de salir.",
+    "retry": "Reintentar",
+    "disclaimer": "Los pronósticos a corto plazo son solo de referencia; antes de actividades al aire libre o en el mar confirme siempre las condiciones actuales.",
+    "advice": {
+      "title": "Consejos para hoy",
+      "outfitTitle": "Qué ponerse",
+      "playTitle": "Qué hacer",
+      "itemTitle": "Qué llevar",
+      "riskTitle": "Aviso de seguridad",
+      "playClear": "Día despejado, ideal para exteriores y la playa; disfrute del amanecer o el atardecer a primera o última hora.",
+      "playPartly": "Parcialmente nublado y sin calor fuerte: bueno para esnórquel, paseos por la arena y juegos en el agua.",
+      "playCloudy": "Luz suave y sin sol fuerte: cómodo para caminar y fotografiar al aire libre todo el día.",
+      "playRainLikely": "Hoy es probable que llueva: planee las actividades al aire libre y en el agua en las pausas de lluvia y tenga un plan de interior.",
+      "playDrizzle": "Con llovizna se disfruta menos al aire libre; las rocas y pasarelas cerca del mar pueden estar resbaladizas: vigile sus pasos.",
+      "playShowers": "Hoy habrá chubascos pasajeros: aproveche los claros para estar fuera y lleve paraguas a mano.",
+      "playRain": "No es buen día para actividades al aire libre ni en el agua; los paseos en barco y la silla aérea pueden suspenderse: prefiera zonas interiores.",
+      "playStorm": "Tormentas: es probable que se suspendan las actividades acuáticas y marinas; no permanezca en la playa, bajo árboles ni en zonas altas.",
+      "playWind5": "Hace viento: algunos paseos en barco y atracciones al aire libre pueden cancelarse; confirme primero el programa de hoy.",
+      "playHot": "La radiación UV es muy fuerte entre las 10 y las 15 h; deje las actividades largas al aire libre para la mañana o la tarde noche.",
+      "outfitHeat": "Hace calor: vista ropa ligera y transpirable y beba agua con frecuencia.",
+      "outfitGap": "Gran diferencia de temperatura entre el día y la noche: lleve una chaqueta ligera para la tarde.",
+      "outfitWet": "Va a llover: lleve chaqueta impermeable y calzado antideslizante.",
+      "outfitWind": "Hace mucho viento: los sombreros pueden volarse y los vestidos largos sueltos no son prácticos.",
+      "itemRain": "Paraguas o impermeable",
+      "itemUmbrella": "Paraguas plegable",
+      "itemRaincoat": "Impermeable (evite el paraguas largo con viento)",
+      "itemSun": "Protector solar, gafas de sol y sombrero",
+      "itemWater": "Agua para beber",
+      "riskRain": "Lluvia fuerte: evite zonas bajas y laderas; vigile los encharcamientos y deslizamientos.",
+      "riskStorm": "Riesgo de rayos: no se resguarde en la playa, bajo árboles ni en zonas altas.",
+      "riskWind": "Viento muy fuerte: aléjese de las rocas de la costa, árboles secos y estructuras temporales; la mayoría de actividades marinas se cancelan.",
+      "riskFog": "Poca visibilidad: los ferris y vuelos pueden sufrir retrasos; viaje despacio y atento al tráfico."
+    }
+  },
+  "tide": {
+    "title": "Mareas y estado del mar",
+    "subtitle": "Marea alta, marea baja y cuándo meterse al agua",
+    "nowLabel": "Ahora mismo",
+    "rising": "La marea está subiendo",
+    "falling": "La marea está bajando",
+    "slack": "A punto de estar en calma (cambia pronto)",
+    "nextHigh": "Próxima pleamar",
+    "nextLow": "Próxima bajamar",
+    "inTime": "en unos {h} h {m} min",
+    "inMin": "en unos {m} min",
+    "soon": "de inmediato",
+    "high": "Pleamar",
+    "low": "Bajamar",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "listTitle": "Próximas horas de marea",
+    "height": "Nivel",
+    "seaTitle": "Estado del mar",
+    "sst": "Temperatura del agua",
+    "wave": "Altura del oleaje",
+    "wavePeriod": "Período del oleaje",
+    "seaNote0": "El mar está bastante tranquilo, ideal para nadar y hacer esnórquel.",
+    "seaNote1": "Hay algo de oleaje; cuide sus fuerzas dentro del agua y quédese en zonas poco profundas.",
+    "seaNote2": "El oleaje está creciendo: el esnórquel requiere experiencia; limítese a aguas poco profundas.",
+    "seaNote3": "Mar agitado: no se recomienda nadar y nunca lo haga solo.",
+    "footer": "La diferencia de marea aquí es pequeña. En bajamar quedan más arrecifes y bancos de arena al descubierto: use calzado antideslizante sobre las rocas y vigile el oleaje.",
+    "disclaimer": "Las horas de marea se calculan a partir de tablas públicas y son solo orientativas; compruebe siempre el estado del mar antes de actividades acuáticas.",
+    "loading": "Leyendo las mareas de Roatán…",
+    "errorTitle": "Los datos de marea no están disponibles ahora",
+    "errorHint": "Inténtelo de nuevo en unos minutos o consulte el cartel de mareas en la playa.",
+    "retry": "Reintentar"
+  },
+  "facilities": {
+    "title": "Servicios al visitante e instalaciones cercanas",
+    "subtitle": "Una visión neutral por tipo de servicio para que todo tipo de viajeros planifique con antelación.",
+    "note": "Esta es una descripción neutral por tipo y no constituye una recomendación de ningún establecimiento o marca concretos. Horarios y tarifas pueden cambiar; confirme siempre en el lugar.",
+    "items": [
+      {
+        "name": "Servicios sanitarios y accesibilidad",
+        "desc": "Hay baños públicos en las zonas de espera y actividades de la terminal, normalmente con módulos accesibles y espacios para familias. Las entradas y recorridos principales suelen ser sin barreras.",
+        "tip": "En días de muchos cruceros las colas crecen; use los servicios más cercanos a su punto de embarque."
+      },
+      {
+        "name": "Estacionamiento y traslados",
+        "desc": "Cerca de la terminal hay áreas para vehículos privados y autobuses turísticos; taxis y minibuses compartidos (colectivos) salen a poca distancia hacia los pueblos de la isla.",
+        "tip": "Muchos visitantes caminan al pueblo o toman un colectivo en lugar de alquilar coche."
+      },
+      {
+        "name": "Tipos de comida",
+        "desc": "La terminal y Coxen Hole ofrecen opciones de todo tipo: comida rápida, cafeterías, restaurantes caribeños y puestos de comida callejera, para todos los presupuestos.",
+        "tip": "Los puestos pequeños suelen aceptar solo efectivo; lleve moneda local y coma antes de nadar."
+      },
+      {
+        "name": "Tipos de alojamiento",
+        "desc": "En la isla abundan los resorts, hoteles boutique, casas de huéspedes y hostales, sobre todo alrededor de West Bay, West End y las comunidades locales.",
+        "tip": "Si se queda a dormir, reserve un alojamiento registrado, conserve su confirmación y coordine los traslados."
+      },
+      {
+        "name": "Tiendas y artículos básicos",
+        "desc": "La aldea comercial de la terminal, los supermercados del pueblo y las tiendas de conveniencia venden recuerdos, bebidas, artículos de uso diario y medicinas básicas.",
+        "tip": "El flujo de compradores sigue al calendario de cruceros; haga sus compras por la mañana."
+      },
+      {
+        "name": "Combustible y carga",
+        "desc": "Las gasolineras de Roatán son pocas y están sobre todo en las carreteras principales; algunos alojamientos y zonas públicas ofrecen corriente para dispositivos.",
+        "tip": "Llene el tanque antes de viajes largos y lleve batería externa y adaptador."
+      },
+      {
+        "name": "Salud y emergencias",
+        "desc": "Coxen Hole cuenta con hospitales y clínicas; la terminal suele tener personal de primeros auxilios y seguridad, y las farmacias del pueblo venden medicamentos comunes.",
+        "tip": "Lleve sus medicamentos personales en su envase identificado; en una emergencia contacte al personal del puerto o a los servicios locales."
+      },
+      {
+        "name": "Conectividad",
+        "desc": "El Wi-Fi gratuito es habitual en la terminal y las zonas públicas principales, y las tiendas de operadores locales venden tarjetas SIM prepagadas en la isla.",
+        "tip": "Revise su plan de roaming antes de bajar del barco o compre una SIM local para estar conectado."
+      }
+    ]
+  },
+  "seasonPlan": {
+    "title": "Tabla de estrategia por temporada",
+    "subtitle": "Cómo cambian el clima, el agua y la fauna a lo largo del año en Roatán.",
+    "basedOn": "Guía general basada en patrones climáticos promedio de largo plazo; combínela con el clima en vivo de esta página y los avisos oficiales antes de viajar.",
+    "columns": {
+      "season": "Temporada",
+      "weather": "Clima",
+      "water": "Mar y visibilidad",
+      "wildlife": "Fauna marina destacada",
+      "advice": "Consejo de planificación"
+    },
+    "rows": [
+      {
+        "season": "Dic – Feb",
+        "weather": "Inicio de la estación seca: vientos alisios estables, unos 24–29°C, pocas lluvias.",
+        "water": "Mar a unos 27°C con buena visibilidad; aguas generalmente tranquilas en el arrecife norte.",
+        "wildlife": "Aves migratorias y peces de arrecife activos; ideal para observar aves y hacer esnórquel.",
+        "advice": "Temporada alta internacional; reserve traslados y alojamiento con mucha antelación."
+      },
+      {
+        "season": "Mar – May",
+        "weather": "La parte más seca del año: sol intenso, brisas suaves y 26–31°C.",
+        "water": "Suele ser la mejor visibilidad del año: ventana ideal para esnórquel y buceo.",
+        "wildlife": "Se acerca el desove de corales y los avistamientos de tiburón ballena son relativamente frecuentes de marzo a mayo.",
+        "advice": "Mejores meses para el agua y la fotografía submarina; use protector solar, hidrátese y evite el sol del mediodía."
+      },
+      {
+        "season": "Jun – Ago",
+        "weather": "Comienza la temporada de lluvias: sol y chubascos breves, lo más cálido del año con 27–32°C.",
+        "water": "Tras la lluvia la costa cercana puede enturbiarse o recibir sargazo; suele aclararse con rapidez.",
+        "wildlife": "Temporada de anidación y cría de tortugas, con más actividad pelágica mar adentro.",
+        "advice": "Lleve una chaqueta ligera; planee el agua por la mañana, porque las lluvias suelen llegar por la tarde."
+      },
+      {
+        "season": "Sep – Nov",
+        "weather": "Pico de la estación lluviosa con más viento y lluvia, que coincide con la temporada de huracanes del Atlántico (sep–oct).",
+        "water": "Mar más movido y visibilidad variable; vigile corrientes y marejadas en algunos momentos.",
+        "wildlife": "La calidad del agua varía en algunas zonas, aunque los arrecifes y peces siguen mereciendo la pena; valore in situ.",
+        "advice": "Siga los avisos meteorológicos y del puerto, lleve un plan B; hay menos gente y precios más bajos."
+      }
+    ]
+  },
+  "audiencePlans": {
+    "title": "Planes de visita según el viajero",
+    "subtitle": "Tres rutas a medida según el grupo, el ritmo y las prioridades de cada visitante.",
+    "bestTimeLabel": "Mejor momento",
+    "stepsLabel": "Flujo sugerido",
+    "tipsLabel": "Consejos",
+    "plans": [
+      {
+        "id": "family",
+        "name": "Familias con niños",
+        "desc": "Una experiencia de agua segura y relajada: aguas poco profundas, sombra y ritmo tranquilo.",
+        "best": "Mañanas de temporada seca o días de mar calmado",
+        "steps": [
+          "Recoja un mapa en el punto de información y confirme los horarios del barco y del reembarque.",
+          "Tome la silla aérea o un camino suave hacia la zona de aguas someras; deje que los niños se acostumbren al agua.",
+          "Descanse y reponga fuerzas a la sombra; coma fuera de las horas punta.",
+          "Dedique alrededor de una hora al esnórquel en aguas bajas o a jugar en la arena.",
+          "Reserve tiempo para regresar y compre recuerdos antes de embarcar."
+        ],
+        "tips": [
+          "Supervise siempre a los niños con chalecos adecuados.",
+          "Use protección física del sol más protector infantil.",
+          "Evite erizos y coral afilado; siga las indicaciones de los socorristas."
+        ]
+      },
+      {
+        "id": "photo",
+        "name": "Fotografía y naturaleza",
+        "desc": "Enfocada en la terminal, la laguna y la luz del mar y el cielo; lleve teleobjetivo y carcasa impermeable.",
+        "best": "De una a dos horas tras el amanecer, o luz rasante antes del atardecer",
+        "steps": [
+          "Reconozca el paseo marítimo, la línea alta de la silla aérea y la playa como puntos de vista.",
+          "Fotografíe panorámicas y detalles humanos con la luz suave de la mañana.",
+          "Haga esnórquel con carcasa impermeable y fotografíe coral y peces con el sol a favor.",
+          "Diríjase a un punto de observación costero para aves y siluetas del atardecer.",
+          "Cierre con la terminal iluminada al anochecer antes de reembarcar."
+        ],
+        "tips": [
+          "Respete a sus sujetos: no alimente ni moleste a la fauna.",
+          "Nunca apunte el flash al coral o a los animales marinos.",
+          "Si usa dron, consulte las normas del espacio aéreo local y regístrelo si es necesario."
+        ]
+      },
+      {
+        "id": "accessible",
+        "name": "Sin esfuerzo y accesible",
+        "desc": "Senderos planos, miradores y traslados cortos: apenas requiere caminar mucho o subir cuestas.",
+        "best": "Mañanas entre semana, con menos gente y suelo más fresco",
+        "steps": [
+          "Entre por la ruta accesible y pregunte por asistencia de silla de ruedas y traslados.",
+          "Tome la silla aérea o un transporte accesible hasta el mirador frente al mar.",
+          "Descanse en una zona de sombra con vistas a la laguna y al barco atracado.",
+          "Si se encuentra bien, dé un paseo lento de 10–15 minutos por un camino plano.",
+          "Regrese a la terminal con tiempo de sobra para embarcar."
+        ],
+        "tips": [
+          "Comunique sus necesidades de asistencia al barco o a la terminal con antelación.",
+          "Use calzado antideslizante y lleve sus medicamentos y agua.",
+          "Evite las horas centrales de más calor."
+        ]
+      }
+    ]
+  },
+  "itinerary": {
+    "title": "Rutas generales recomendadas: medio día y día completo",
+    "subtitle": "Dos recorridos flexibles según el tiempo de escala; ajústelos a su energía e intereses.",
+    "note": "Sugerencias generales y neutrales; los traslados, horarios y puntos de encuentro exactos siguen el programa diario de la terminal.",
+    "options": [
+      {
+        "id": "half",
+        "name": "Clásico de medio día",
+        "duration": "Unas 4 horas · ideal para una escala de mañana o tarde",
+        "pace": "Ritmo cómodo, perfecto para una primera visita",
+        "stops": [
+          {
+            "title": "Llegada · Información",
+            "detail": "Recoja un mapa y el programa del día, confirme la hora de reembarque y cambie algo de efectivo."
+          },
+          {
+            "title": "Silla aérea · Vistas al mar",
+            "detail": "Suba en la silla aérea o camine por el sendero costero hasta la playa para ver el arrecife con el barco al fondo."
+          },
+          {
+            "title": "Aguas someras · Esnórquel",
+            "detail": "Entre en las aguas bajas vigiladas y haga esnórquel de 40–60 minutos observando los peces."
+          },
+          {
+            "title": "Comida · Compras",
+            "detail": "Coma fuera de las horas punta y visite los puestos de artesanía y recuerdos."
+          },
+          {
+            "title": "Regreso · Margen de embarque",
+            "detail": "Vuelva a la pasarela 30–45 minutos antes de la salida, según los avisos de la terminal."
+          }
+        ]
+      },
+      {
+        "id": "full",
+        "name": "Explorador de día completo",
+        "duration": "Unas 7–8 horas · ideal para una escala de casi todo el día",
+        "pace": "Lo mejor de medio día más una excursión por la isla",
+        "stops": [
+          {
+            "title": "Llegada · Salida rápida",
+            "detail": "Confirme el horario y el punto de encuentro y salga mientras la mañana aún está fresca."
+          },
+          {
+            "title": "Mañana · Lo esencial de la terminal",
+            "detail": "Complete la silla aérea y el esnórquel en aguas bajas cuando el agua está en su mejor momento."
+          },
+          {
+            "title": "Mediodía · Exploración de la isla",
+            "detail": "Tome un colectivo a West End o West Bay para almorzar cocina caribeña."
+          },
+          {
+            "title": "Tarde · Playa y paseo",
+            "detail": "Nade de nuevo en las aguas bajas de West Bay o recorra a pie la vida callejera de West End."
+          },
+          {
+            "title": "Regreso · Conexiones",
+            "detail": "Vuelva en colectivo con 60–90 minutos de margen por si hay tráfico."
+          },
+          {
+            "title": "Embarque · Despedida al atardecer",
+            "detail": "Haga las últimas compras en la terminal y despídase con la puesta de sol caribeña."
+          }
+        ]
+      }
+    ]
+  },
+  "stewardship": {
+    "title": "Ciencia del arrecife y responsabilidad del visitante",
+    "subtitle": "Entienda un poco de ecología marina: su visita será más fácil y el arrecife durará más.",
+    "scienceTitle": "Por qué este lugar es especial — una introducción al ecosistema",
+    "scienceItems": [
+      {
+        "name": "Arrecifes de coral: las selvas del mar",
+        "text": "Diminutos pólipos y sus algas simbióticas construyen esqueletos de caliza que albergan a cerca de una cuarta parte de las especies marinas. Roatán forma parte del Arrecife Mesoamericano, el segundo sistema de barrera más grande del mundo."
+      },
+      {
+        "name": "Pastos marinos y manglares guardianes",
+        "text": "Las praderas marinas crían tortugas y peces juveniles mientras filtran el agua; los manglares estabilizan la costa. Juntos completan la cadena viva de la laguna."
+      },
+      {
+        "name": "La vida diaria de peces y tortugas",
+        "text": "Los peces loro pastan el arrecife y lo mantienen sano; las tortugas carey y verde se alimentan todo el año cerca de la costa. ¿Se encuentra un tiburón ballena? Mantenga la distancia y nunca lo persiga."
+      },
+      {
+        "name": "Una isla nacida de la caliza",
+        "text": "Roatán es una isla de piedra caliza elevada; siglos de erosión formaron las crestas, cuevas y bahías que ve hoy."
+      }
+    ],
+    "dutyTitle": "Su visita, su huella",
+    "dutyItems": [
+      {
+        "name": "No toque ni pise el coral",
+        "text": "El coral es frágil: un solo roce puede matar una colonia. Haga esnórquel a distancia y controle su cuerpo con las aletas."
+      },
+      {
+        "name": "Nunca alimente la fauna marina",
+        "text": "La alimentación altera el comportamiento silvestre y sobrecarga las aguas."
+      },
+      {
+        "name": "Elija protección solar amiga del coral",
+        "text": "Antes de nadar, reduzca los protectores con oxibenzona y filtros similares; prefiera sombra, camisetas y productos seguros para el arrecife."
+      },
+      {
+        "name": "Llévese su basura",
+        "text": "Use botella reutilizable y bolsas de tela, evite los plásticos de un solo uso y no deje residuos en arena ni mar."
+      },
+      {
+        "name": "No compre recuerdos de coral ni de fauna",
+        "text": "Muchos 'recuerdos' provienen de aguas protegidas: llévese solo fotos y memorias."
+      },
+      {
+        "name": "Siga las normas del lugar",
+        "text": "Respete boyas, zonas restringidas y horarios, y siga las indicaciones de socorristas y personal del puerto."
+      }
+    ]
+  },
+  "heritage": {
+    "title": "Historias tras el nombre: de cala pirata a puerta moderna de cruceros",
+    "subtitle": "Anécdotas y tradición local que dan carácter a Coxen Hole y Mahogany Bay.",
+    "note": "Recopilado como divulgación a partir de historias locales publicadas y la tradición oral; los detalles pueden variar entre fuentes.",
+    "cards": [
+      {
+        "heading": "Días de piratas y el nombre 'Coxen Hole'",
+        "text": "La versión local más extendida dice que Coxen Hole debe su nombre a John Coxen, un capitán pirata inglés activo en estas aguas en el siglo XVII. Lo que le atrajo fue esta bahía natural, resguardada y de buen calado; se dice que su tripulación la usó como fondeadero, y algo de esa 'cala pirata' sobrevive hoy en la memoria del pueblo."
+      },
+      {
+        "heading": "1797: la epopeya garífuna",
+        "text": "En 1797 un grupo de garífunas, desterrados de San Vicente, llegó remando en cayucos a Roatán, iniciando el capítulo célebre de este pueblo afrocaribeño en la costa centroamericana. Sus tambores, lengua y cocina siguen siendo parte esencial de la cultura de las Islas de la Bahía."
+      },
+      {
+        "heading": "Inglés, español y el año 1859",
+        "text": "Antes de ser hondureñas, las Islas de la Bahía vivieron bajo una fuerte influencia británica, por eso el inglés y el español conviven hasta hoy. Tras los tratados de 1859, las islas pasaron a formar parte de Honduras, hoy departamento de Islas de la Bahía."
+      },
+      {
+        "heading": "'Mahogany Bay' y la memoria maderera",
+        "text": "En la época de la vela y el comercio colonial, la caoba (mahogany) y el palo de tinte estuvieron entre las exportaciones más valiosas de Centroamérica, y los campamentos madereros salpicaron el interior de la isla. Los locales suelen vincular el nombre Mahogany Bay con esa historia; sea cual sea su origen exacto, mantiene viva la memoria de la madera y los grandes veleros."
+      }
+    ]
+  },
   "meta": {
-    "title": "Mahogany Bay Cruise Terminal | Terminal de Cruceros",
-    "description": "Explora la Terminal de Cruceros Mahogany Bay en Dixon Cove, Islas de la Bahía, Honduras. Una terminal de cruceros moderna que sirve a la hermosa costa caribeña."
+    "title": "Mahogany Bay Cruise Terminal (Coxen Hole) | Guía del Visitante y Ubicación",
+    "description": "Descubre Mahogany Bay Cruise Terminal, el icónico puerto de cruceros en Coxen Hole, Islas de la Bahía, Honduras. Consulta el mapa de ubicación, horarios, atracciones cercanas como Playa West Bay y consejos de viaje."
   },
   "header": {
     "home": "Inicio",
@@ -11,16 +396,28 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Mahogany Bay Cruise Terminal",
-    "subtitle": "Islas de la Bahía · Honduras",
+    "title": "Mahogany Bay Cruise Terminal (Coxen Hole)",
+    "subtitle": "Coxen Hole · Islas de la Bahía · Honduras",
     "rating": "4.7",
-    "reviewCount": "4,788",
+    "reviewCount": "4,819",
     "hours": "Terminal de Cruceros",
     "openMaps": "Ver Ubicación"
   },
+  "geo": {
+    "fullName": "Mahogany Bay Cruise Terminal",
+    "city": "Coxen Hole",
+    "state": "Islas de la Bahía",
+    "country": "Honduras"
+  },
+  "seo": {
+    "heroAlt": "Mahogany Bay Cruise Terminal - Vista principal en Coxen Hole, Islas de la Bahía, Honduras",
+    "galleryAltEntity": "Mahogany Bay Cruise Terminal, Coxen Hole, Honduras"
+  },
   "intro": {
-    "title": "Explora Mahogany Bay Cruise Terminal",
-    "description": "Mahogany Bay Cruise Terminal se encuentra en Dixon Cove, Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
+    "title": "Acerca de Mahogany Bay Cruise Terminal",
+    "overview": "Bienvenido a **Mahogany Bay Cruise Terminal**, ampliamente reconocida como la terminal central de cruceros **Mahogany Bay** en Roatán. Ubicada en el corazón de **Coxen Hole**, departamento de **Islas de la Bahía**, **Honduras**, este destino sirve como la principal puerta de entrada para los viajeros que visitan la isla y la costa caribeña.",
+    "description": "Mahogany Bay Cruise Terminal se encuentra en Coxen Hole, en la isla de Roatán, departamento de Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
+    "nearby": "Al visitar **Mahogany Bay Cruise Terminal**, los viajeros pueden explorar fácilmente los puntos de interés cercanos, incluyendo **Playa West Bay** y **West End Village**, dos de los destinos más populares de Roatán para bucear, cenar y disfrutar de la cultura local.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
@@ -34,7 +431,7 @@
       "title": "Destacados",
       "items": [
         "Instalaciones Modernas: Terminal de cruceros bien equipada con tiendas, restaurantes y servicios para pasajeros.",
-        "Ubicación Privilegiada: Situada en Dixon Cove, la puerta principal a la isla de Roatán.",
+        "Ubicación Privilegiada: Situada en Coxen Hole, Roatán, la puerta principal a la isla de Roatán.",
         "Acceso al Caribe: Punto de partida perfecto para explorar las hermosas playas caribeñas y arrecifes de coral.",
         "Servicios Turísticos: Mostrador de información y arreglos turísticos disponibles para los visitantes.",
         "Exclusivo de Carnival Corporation: Un puerto privado y exclusivo construido y administrado por Carnival Corporation, que sirve principalmente a sus marcas de cruceros.",
@@ -89,16 +486,16 @@
     "country": "País",
     "countryValue": "Honduras",
     "city": "Ciudad",
-    "cityValue": "Dixon Cove, Roatán",
+    "cityValue": "Coxen Hole, Roatán",
     "googleRating": "Calificación de Google",
     "address": "Dirección",
-    "addressValue": "8GG3+W27, Dixon Cove, Roatán, Honduras",
+    "addressValue": "8GG3+W27, Coxen Hole, Roatán, Honduras",
     "plusCode": "Código Plus",
-    "plusCodeValue": "8GG3+W27 Dixon Cove, Roatán, Honduras",
+    "plusCodeValue": "8GG3+W27 Coxen Hole, Roatán, Honduras",
     "alias": "Alias",
     "aliasValue": "Isla Tropicale",
     "tipLabel": "Nota:",
-    "addressTip": "En Google Maps y otras aplicaciones de navegación, la dirección de la terminal puede aparecer como Coxen Hole, pero su ubicación real está en Dixon Cove. Tenga cuidado de no confundirlo con el otro puerto de cruceros en el centro de Coxen Hole."
+    "addressTip": "En Google Maps y otras aplicaciones de navegación, la dirección oficial de la terminal figura como Coxen Hole, Roatán, Islas de la Bahía, Honduras. Roatán también cuenta con otro atracadero de cruceros en el centro de Coxen Hole; verifique bien el destino antes de viajar para no equivocarse de terminal."
   },
   "hours": {
     "title": "Horarios de Apertura",
@@ -132,9 +529,9 @@
     "airport": "Desde el Aeropuerto",
     "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional Juan Manuel Gálvez (RTB). Corta distancia a la terminal de cruceros.",
     "selfDrive": "En Coche",
-    "selfDriveDesc": "La terminal está situada en Dixon Cove. Use navegación y siga los letreros hasta el puerto de cruceros.",
+    "selfDriveDesc": "La terminal está situada en Coxen Hole. Use navegación y siga los letreros hasta el puerto de cruceros.",
     "bus": "Transporte Público",
-    "busDesc": "Hay autobuses locales y taxis disponibles desde Dixon Cove hasta el área de la terminal.",
+    "busDesc": "Hay autobuses locales y taxis disponibles desde Coxen Hole hasta el área de la terminal.",
     "intercity": "Transporte del Crucero",
     "intercityDesc": "La mayoría de las líneas de cruceros proporcionan servicio de transporte desde la terminal hasta atracciones populares.",
     "cycling": "Otros Medios",
@@ -148,6 +545,27 @@
     "route2Desc": "A unos 25-30 minutos en coche. Un gran lugar para experimentar la vida local de la isla con muchos restaurantes, tiendas de buceo y bares.",
     "route3": "French Key / Centro de Perezosos",
     "route3Desc": "A unos 15-20 minutos en coche. Acércate a la vida silvestre nativa de Honduras, como perezosos, monos y guacamayos."
+  },
+  "around": {
+    "title": "Monumentos y Atracciones Alrededor de Mahogany Bay",
+    "lead": "Desde Mahogany Bay Cruise Terminal, puede visitar fácilmente los siguientes monumentos y puntos de interés cercanos a Coxen Hole:",
+    "items": [
+      {
+        "name": "Playa West Bay",
+        "desc": "Una de las playas más populares de Roatán, ideal para snorkel, deportes acuáticos y descanso; a unos 30-40 minutos en transporte o taxi desde la terminal.",
+        "mapQuery": "West Bay Beach, Roatan, Honduras"
+      },
+      {
+        "name": "West End Village",
+        "desc": "Conocido por el buceo, los restaurantes y la vida nocturna isleña; a unos 25-30 minutos en coche.",
+        "mapQuery": "West End, Roatan, Honduras"
+      },
+      {
+        "name": "Parque Gumbalimba",
+        "desc": "Un parque de aventura ecológica cerca de West End donde puede observar guacamayos, monos y otras especies nativas.",
+        "mapQuery": "Gumbalimba Park, Roatan, Honduras"
+      }
+    ]
   },
   "gallery": {
     "title": "Fotos Impresionantes",
@@ -232,9 +650,76 @@
     ]
   },
   "mapSection": {
-    "title": "Ubicación y Mapa",
-    "subtitle": "8GG3+W27, Dixon Cove, Roatán, Honduras",
+    "title": "Ubicación y Cómo Visitar Mahogany Bay en Coxen Hole",
+    "subtitle": "Dirección oficial: 8GG3+W27, Coxen Hole, Roatán, Islas de la Bahía, Honduras",
     "openMaps": "Ver en Google Maps"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes sobre Mahogany Bay Cruise Terminal",
+    "intro": "Respuestas rápidas para ayudarle a planificar su visita a Mahogany Bay Cruise Terminal:",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra Mahogany Bay Cruise Terminal?",
+        "a": "Mahogany Bay Cruise Terminal se encuentra en Coxen Hole, en la isla de Roatán, departamento de Islas de la Bahía, Honduras. Su dirección oficial es 8GG3+W27, Coxen Hole, Bay Islands, Honduras."
+      },
+      {
+        "q": "¿Es gratuito visitar Mahogany Bay?",
+        "a": "El acceso al área de la terminal es gratuito para los pasajeros de cruceros que llegan al puerto. Algunas instalaciones, como el Magical Flying Beach Chair, los deportes acuáticos y el alquiler de tumbonas, pueden tener costos adicionales."
+      },
+      {
+        "q": "¿Qué líneas de cruceros atracan en Mahogany Bay?",
+        "a": "La terminal es operada por Carnival Corporation, y sus marcas, como Carnival Cruise Line, Holland America Line y Princess Cruises, son las principales líneas de cruceros que atracan en el puerto."
+      },
+      {
+        "q": "¿A qué distancia está la terminal del aeropuerto de Roatán?",
+        "a": "El Aeropuerto Internacional Juan Manuel Gálvez (RTB) está cerca de Coxen Hole; el trayecto en taxi desde la terminal suele durar unos 10-15 minutos."
+      },
+      {
+        "q": "¿Cuándo está abierta la terminal?",
+        "a": "La terminal abre únicamente los días en que hay cruceros en puerto, y los horarios dependen de los itinerarios de llegada y salida de los barcos. Confirme el horario del día con su línea de cruceros antes de viajar."
+      },
+      {
+        "q": "¿Cómo llego a la playa desde la terminal?",
+        "a": "Puede tomar el Magical Flying Beach Chair (telesilla) o caminar por el sendero hasta la playa y la aldea de compras de Mahogany Bay para disfrutar del sol y la arena caribeños."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Fuentes y Referencias Oficiales",
+    "lead": "La información de esta página se contrasta con las siguientes autoridades oficiales de Honduras (nacionales, departamentales y municipales) para garantizar su fiabilidad:",
+    "items": [
+      {
+        "name": "Instituto Nacional de Migración de Honduras (INM)",
+        "scope": "Gestiona el control migratorio nacional y de los puertos marítimos de entrada al país, incluidos los terminales de cruceros como Mahogany Bay.",
+        "url": "https://inm.gob.hn"
+      },
+      {
+        "name": "Instituto Hondureño de Turismo (IHT)",
+        "scope": "Autoridad nacional de turismo: políticas, promoción y desarrollo turístico del país.",
+        "url": "https://www.iht.hn"
+      },
+      {
+        "name": "Portal Nacional de Turismo de Honduras (honduras.travel)",
+        "scope": "Portal oficial de información turística y de viajes del Gobierno de Honduras.",
+        "url": "https://honduras.travel"
+      },
+      {
+        "name": "ZOLITUR - Zona de Libre Desarrollo Turístico de las Islas de la Bahía",
+        "scope": "Organismo oficial que regula y desarrolla el turismo en el departamento de Islas de la Bahía.",
+        "url": "https://zolitur.gob.hn"
+      },
+      {
+        "name": "Alcaldía Municipal de Roatán",
+        "scope": "Gobierno local del municipio donde se ubica la terminal (Coxen Hole).",
+        "url": "https://muniroatan.gob.hn"
+      },
+      {
+        "name": "Sistema Nacional de Información Territorial (SINIT)",
+        "scope": "Base de datos oficial de límites territoriales y datos geoespaciales de Honduras.",
+        "url": "https://sinit.hn"
+      }
+    ],
+    "note": "Para información oficial y turismo regional, visite el Portal Oficial de Turismo de Honduras / Islas de la Bahía."
   },
   "footer": {
     "rights": "© 2026 Mahogany Bay Cruise Terminal. Todos los derechos reservados.",
@@ -268,6 +753,7 @@
         "url": "https://sinit.hn"
       }
     },
+    "imageRights": "Todas las imágenes mostradas en este sitio web son propiedad de sus respectivos fotógrafos y están protegidas por derechos de autor.",
     "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
   },
   "privacy": {
@@ -366,10 +852,10 @@
   },
   "officialManagement": {
     "title": "Acerca de Mahogany Bay Cruise Terminal",
-    "text": "Mahogany Bay Cruise Terminal es una instalación de cruceros moderna en Dixon Cove, Roatán, Honduras, propiedad y administrada por Carnival Corporation, que sirve como puerta de acceso privada y exclusiva a la hermosa costa caribeña y la isla de Roatán."
+    "text": "Mahogany Bay Cruise Terminal es una instalación de cruceros moderna en Coxen Hole, Roatán, Islas de la Bahía, Honduras, propiedad y administrada por Carnival Corporation, que sirve como puerta de acceso privada y exclusiva a la hermosa costa caribeña y la isla de Roatán."
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Historia e Importancia de Mahogany Bay Cruise Terminal",
     "items": [
       {
         "year": "Período de Desarrollo",
