@@ -399,7 +399,7 @@
     "title": "Mahogany Bay Cruise Terminal (Coxen Hole)",
     "subtitle": "Coxen Hole · Islas de la Bahía · Honduras",
     "rating": "4.7",
-    "reviewCount": "4,819",
+    "reviewCount": "4,834",
     "hours": "Terminal de Cruceros",
     "openMaps": "Ver Ubicación"
   },
@@ -415,7 +415,7 @@
   },
   "intro": {
     "title": "Acerca de Mahogany Bay Cruise Terminal",
-    "overview": "Bienvenido a **Mahogany Bay Cruise Terminal**, ampliamente reconocida como la terminal central de cruceros **Mahogany Bay** en Roatán. Ubicada en el corazón de **Coxen Hole**, departamento de **Islas de la Bahía**, **Honduras**, este destino sirve como la principal puerta de entrada para los viajeros que visitan la isla y la costa caribeña.",
+    "overview": "Bienvenido a **Mahogany Bay Cruise Terminal** —ahora con la marca **Isla Tropicale**—, el puerto de cruceros privado de Carnival Corporation en Roatán. Está en la zona de **Dixon Cove**, departamento de **Islas de la Bahía**, **Honduras** (Google Maps lista la zona como Coxen Hole). Es una terminal distinta del **Port of Roatán** en el centro de Coxen Hole, y sirve como la principal puerta de entrada para los cruceros de la marca Carnival.",
     "description": "Mahogany Bay Cruise Terminal se encuentra en Coxen Hole, en la isla de Roatán, departamento de Islas de la Bahía, Honduras. Es una terminal de cruceros moderna que sirve a la hermosa costa caribeña, proporcionando servicios e instalaciones convenientes para los pasajeros de cruceros que visitan Roatán y las Islas de la Bahía.",
     "nearby": "Al visitar **Mahogany Bay Cruise Terminal**, los viajeros pueden explorar fácilmente los puntos de interés cercanos, incluyendo **Playa West Bay** y **West End Village**, dos de los destinos más populares de Roatán para bucear, cenar y disfrutar de la cultura local.",
     "visitGuide": {
@@ -435,7 +435,8 @@
         "Acceso al Caribe: Punto de partida perfecto para explorar las hermosas playas caribeñas y arrecifes de coral.",
         "Servicios Turísticos: Mostrador de información y arreglos turísticos disponibles para los visitantes.",
         "Exclusivo de Carnival Corporation: Un puerto privado y exclusivo construido y administrado por Carnival Corporation, que sirve principalmente a sus marcas de cruceros.",
-        "Magical Flying Beach Chair (Telesilla): Un telesilla único que transporta a los pasajeros directamente desde la zona de compras hasta la exclusiva Mahogany Beach."
+        "Magical Flying Beach Chair (Telesilla): Un telesilla único que transporta a los pasajeros directamente desde la zona de compras hasta la exclusiva Mahogany Beach.",
+        "Rebautizado como Isla Tropicale: El destino renovado de Carnival ahora cuenta con clubes de playa, piscinas y el Mangrove Bay Pool & Swim-Up Bar, abiertos a los pasajeros de cruceros."
       ]
     }
   },
@@ -493,9 +494,9 @@
     "plusCode": "Código Plus",
     "plusCodeValue": "8GG3+W27 Coxen Hole, Roatán, Honduras",
     "alias": "Alias",
-    "aliasValue": "Isla Tropicale",
+    "aliasValue": "Isla Tropicale (nombre actual)",
     "tipLabel": "Nota:",
-    "addressTip": "En Google Maps y otras aplicaciones de navegación, la dirección oficial de la terminal figura como Coxen Hole, Roatán, Islas de la Bahía, Honduras. Roatán también cuenta con otro atracadero de cruceros en el centro de Coxen Hole; verifique bien el destino antes de viajar para no equivocarse de terminal."
+    "addressTip": "En Google Maps la dirección de la terminal figura bajo Coxen Hole, Roatán, Islas de la Bahía, Honduras; pero Mahogany Bay / Isla Tropicale está en la zona de Dixon Cove, al sur de la isla, NO en el centro de Coxen Hole. El otro puerto de cruceros de Roatán, el Port of Roatán, es el que está en el centro de Coxen Hole. Son dos terminales distintas operadas por diferentes empresas; confirme siempre qué puerto usa su barco antes de reservar el transporte."
   },
   "hours": {
     "title": "Horarios de Apertura",
@@ -595,59 +596,11 @@
     "showAllPhotos": "Mostrar Todas las Fotos"
   },
   "reviews": {
-    "title": "Reseñas de Visitantes",
-    "declaration": "La información de las reseñas se puede ver a través de Google Maps (enlace externo).",
-    "moreReviews": "Ver Más Reseñas en Google Maps",
-    "items": [
-      {
-        "name": "Michael Thompson",
-        "date": "hace 1 mes",
-        "rating": 5,
-        "text": "Excelente terminal de cruceros con todas las instalaciones necesarias. Limpia, bien organizada y el personal es muy servicial. Gran punto de partida para explorar Roatán."
-      },
-      {
-        "name": "Sarah Jenkins",
-        "date": "hace 2 semanas",
-        "rating": 5,
-        "text": "Hermosa terminal con vistas increíbles del Caribe. Fácil de navegar y abundantes opciones de compras. Los locales son amigables y acogedores."
-      },
-      {
-        "name": "David Rodriguez",
-        "date": "hace 3 meses",
-        "rating": 4,
-        "text": "Buena terminal en general. Podría usar más áreas de asientos, pero la ubicación es perfecta para acceder a las mejores playas de Roatán."
-      },
-      {
-        "name": "Lisa Chen",
-        "date": "hace 1 semana",
-        "rating": 5,
-        "text": "Terminal moderna y eficiente. El mostrador de información fue muy útil al organizar nuestro tour de la isla. Altamente recomendado visitar las playas cercanas."
-      },
-      {
-        "name": "James Wilson",
-        "date": "hace 2 meses",
-        "rating": 4,
-        "text": "Buenas instalaciones con buenas comodidades. El servicio de transporte a las playas es conveniente. El clima fue perfecto durante nuestra visita."
-      },
-      {
-        "name": "Maria Santos",
-        "date": "hace 3 semanas",
-        "rating": 5,
-        "text": "¡Maravillosa experiencia en Mahogany Bay! La terminal está bien mantenida y la atmósfera caribeña es simplemente mágica. Definitivamente regresaré."
-      },
-      {
-        "name": "Robert Miller",
-        "date": "hace 1 mes",
-        "rating": 4,
-        "text": "Decente terminal de cruceros. Todo lo que necesita está disponible aquí. Las vistas del mar desde la terminal son espectaculares."
-      },
-      {
-        "name": "Jennifer Lee",
-        "date": "hace 2 semanas",
-        "rating": 5,
-        "text": "¡Fantástica terminal! Muy organizada y limpia. Los vendedores locales ofrecen grandes recuerdos y la comida es deliciosa. Un escape caribeño perfecto."
-      }
-    ]
+    "title": "Calificaciones de Visitantes",
+    "declaration": "Esta es una guía de viaje independiente y no está afiliada al operador del puerto. La calificación a continuación proviene de Google Maps y refleja una instantánea pública; confirme las reseñas más recientes en Google antes de su visita.",
+    "moreReviews": "Leer Reseñas en Google Maps",
+    "ratingNote": "Calificación de Google · verificada octubre 2026",
+    "snapshotLabel": "Calificación general"
   },
   "mapSection": {
     "title": "Ubicación y Cómo Visitar Mahogany Bay en Coxen Hole",
@@ -876,13 +829,131 @@
         "description": "Con mejoras continuas a las instalaciones y servicios, la terminal ahora ofrece una experiencia mejorada del pasajero que incluye servicios de información, compras y arreglos turísticos."
       },
       {
-        "year": "Visión Futura",
-        "title": "Visión Futura: Turismo Sostenible",
+        "year": "Hoy",
+        "title": "Hoy: Isla Tropicale y Turismo Sostenible",
         "plaque": "Sostenibilidad (Ecoturismo)",
-        "description": "Mirando hacia el futuro, la terminal tiene como objetivo promover prácticas de turismo sostenible mientras mantiene su papel como un destino premier de cruceros en el Caribe, equilibrando el crecimiento con la protección ambiental. Carnival Corporation ha anunciado una actualización de marca a 'Isla Tropicale', agregando piscinas, clubes de playa y bares en la piscina."
+        "description": "El puerto ha sido rebautizado como **Isla Tropicale**, el destino renovado de Carnival en Roatán. Nuevas amenidades —clubes de playa, piscinas y el Mangrove Bay Pool & Swim-Up Bar— ya están abiertas a los pasajeros de cruceros, mientras la terminal sigue equilibrando el crecimiento de cruceros con la protección del arrecife y la costa."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
     "guideContent": "Al visitar, puede comenzar **familiarizándose con las instalaciones de la terminal**; luego **visite el mostrador de información** para conocer sobre atracciones locales; a continuación, **tome un transporte o taxi** para explorar las hermosas playas y arrecifes de coral de Roatán; finalmente, **regrese a la terminal** para comprar recuerdos y disfrutar de la cocina local antes de la salida."
+  },
+  "topicPages": {
+    "roatan-cruise-ports": {
+      "metaTitle": "Puertos de Cruceros de Roatán Comparados: Mahogany Bay (Isla Tropicale) vs Port of Roatán",
+      "metaDescription": "Roatán tiene dos terminales de cruceros separadas. Conozca la diferencia entre Mahogany Bay (Isla Tropicale) y el Port of Roatán en Coxen Hole: qué barcos atracan dónde, distancias y cómo evitar el puerto equivocado.",
+      "h1": "Puertos de Cruceros de Roatán: Mahogany Bay (Isla Tropicale) vs Port of Roatán",
+      "intro": "Roatán tiene dos terminales de cruceros diferentes, y confundirlas es el error más común de los pasajeros. Esta guía explica la diferencia entre Mahogany Bay —ahora con la marca Isla Tropicale— y el Port of Roatán en Coxen Hole, para que llegue al muelle correcto.",
+      "sections": [
+        {
+          "heading": "Dos terminales, no una",
+          "body": "Mahogany Bay Cruise Terminal (Isla Tropicale) es el puerto de cruceros privado de Carnival Corporation en la costa sur de Roatán, en la zona de Dixon Cove. El Port of Roatán, a veces llamado Coxen Hole Cruise Port, es una terminal separada de administración pública ubicada en el centro de Coxen Hole, al noreste de la isla. Son operadas por diferentes empresas y están varios kilómetros separadas."
+        },
+        {
+          "heading": "Qué barcos atracan dónde",
+          "body": "Mahogany Bay / Isla Tropicale sirve principalmente a las marcas de Carnival Corporation —Carnival Cruise Line, Holland America Line y Princess Cruises. El Port of Roatán en Coxen Hole recibe a la mayoría de las otras líneas, incluidas Royal Caribbean, Norwegian, MSC, Celebrity y Disney. Siempre verifique el itinerario de su barco, porque la terminal asignada puede cambiar."
+        },
+        {
+          "heading": "Distancia y ubicación",
+          "body": "El Port of Roatán está cerca del centro de Coxen Hole y a unos 10–15 minutos del Aeropuerto Internacional Juan Manuel Gálvez (RTB). Mahogany Bay / Isla Tropicale está más al sur, en Dixon Cove, a unos 20–30 minutos del aeropuerto según el tráfico. Ambos están en Roatán pero en lados opuestos de la isla."
+        },
+        {
+          "heading": "Playa e instalaciones",
+          "body": "Mahogany Bay tiene su propia playa privada (Mahogany Beach), un pueblo comercial, piscinas, clubes de playa y el telesilla Magical Flying Beach Chair, todo dentro del puerto cerrado. El Port of Roatán tiene una terminal más pequeña y sin playa privada; los visitantes toman taxi, lanzadera o taxi acuático a West Bay o West End para arena y snorkel."
+        },
+        {
+          "heading": "Cómo elegir y cómo desplazarse entre ellas",
+          "body": "Realmente no elige la terminal —la elige su barco. Si desea explorar más allá de su puerto, taxis y operadores de tours conectan ambas terminales con West Bay, West End y el resto de la isla. Si su barco está en Mahogany Bay pero quiere el área del puerto en el centro, presupueste unos 15–20 minutos de traslado."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Son lo mismo Mahogany Bay y el Port of Roatán?",
+          "a": "No. Son dos terminales de cruceros separadas en Roatán operadas por diferentes empresas. Mahogany Bay (Isla Tropicale) es el puerto privado de Carnival en Dixon Cove; el Port of Roatán está en el centro de Coxen Hole."
+        },
+        {
+          "q": "¿Qué puerto usa Carnival en Roatán?",
+          "a": "Las marcas de Carnival Corporation —Carnival, Holland America y Princess— atracan en Mahogany Bay, ahora con la marca Isla Tropicale."
+        },
+        {
+          "q": "¿Qué puerto usan Royal Caribbean, Norwegian o MSC?",
+          "a": "Estas y la mayoría de las demás líneas no Carnival normalmente atracan en el Port of Roatán en Coxen Hole, no en Mahogany Bay."
+        },
+        {
+          "q": "¿Qué distancia hay entre los dos puertos?",
+          "a": "Están en lados opuestos de Roatán y hay aproximadamente un trayecto en coche de 15–30 minutos, según el tráfico y la ruta exacta."
+        },
+        {
+          "q": "¿Puedo visitar la playa de Mahogany Bay si atraco en Coxen Hole?",
+          "a": "Sí. Taxis y excursiones organizadas pueden llevarlo del Port of Roatán a Mahogany Bay y otras playas, pero las comodidades de Mahogany Beach están orientadas a los pasajeros de cruceros de ese puerto."
+        }
+      ],
+      "relatedTitle": "Más guías de cruceros de Roatán",
+      "related": [
+        {
+          "slug": "isla-tropicale-roatan",
+          "title": "Isla Tropicale Roatán: el puerto Mahogany Bay de Carnival",
+          "desc": "Qué hay de nuevo en el puerto renovado: clubes de playa, piscinas, bar en la piscina y el telesilla."
+        }
+      ]
+    },
+    "isla-tropicale-roatan": {
+      "metaTitle": "Isla Tropicale Roatán: el Puerto de Cruceros Mahogany Bay de Carnival y las Novedades",
+      "metaDescription": "Isla Tropicale es el puerto Mahogany Bay de Carnival renombrado en Roatán. Descubra los nuevos clubes de playa, piscinas, bar en la piscina, el telesilla y cómo llegar a la playa.",
+      "h1": "Isla Tropicale Roatán: el Puerto de Cruceros Mahogany Bay de Carnival",
+      "intro": "Isla Tropicale es el nuevo nombre del Mahogany Bay Cruise Terminal, el destino de cruceros privado de Carnival Corporation en la costa sur de Roatán, en Dixon Cove. Aquí lo que pueden esperar los pasajeros en el puerto renovado.",
+      "sections": [
+        {
+          "heading": "De Mahogany Bay a Isla Tropicale",
+          "body": "Carnival Corporation cambió la marca de su puerto privado de Roatán a Isla Tropicale. La terminal, la playa y las instalaciones circundantes son el mismo lugar físico; solo el nombre y un conjunto de amenidades renovadas son nuevos. Es posible que aún vea 'Mahogany Bay' en mapas y boletos antiguos."
+        },
+        {
+          "heading": "Qué hay en el puerto",
+          "body": "Isla Tropicale gira en torno a un pueblo de compras y restaurants de estilo caribeño, Mahogany Beach, piscinas, clubes de playa y el Mangrove Bay Pool & Swim-Up Bar. El ambiente es un destino de cruceros tipo resort controlado, pensado para una visita de un día."
+        },
+        {
+          "heading": "El Magical Flying Beach Chair",
+          "body": "El paseo característico es el Magical Flying Beach Chair, un telesilla al aire libre que lleva a los pasajeros desde el pueblo comercial hasta Mahogany Beach. Está incluido para los pasajeros de cruceros y ofrece una vista aérea de la laguna y el arrecife."
+        },
+        {
+          "heading": "Cómo llegar a la playa",
+          "body": "Desde el barco puede tomar el Flying Beach Chair o seguir el sendero señalizado hasta Mahogany Beach. La playa, las tumbonas y la laguna están orientadas a los pasajeros de cruceros; las excursiones a West Bay o West End salen del área de tours de la terminal."
+        },
+        {
+          "heading": "Isla Tropicale vs el resto de Roatán",
+          "body": "Como Isla Tropicale es un puerto privado y cerrado, salir de él implica reservar taxi, lanzadera o excursión organizada hacia Coxen Hole, West Bay o West End. Planifique tiempo de traslado extra si quiere explorar más allá de las puertas del puerto."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Es Isla Tropicale lo mismo que Mahogany Bay?",
+          "a": "Sí. Isla Tropicale es el nuevo nombre de marca del Mahogany Bay Cruise Terminal en Roatán. La ubicación y las instalaciones son las mismas; el nombre y algunas amenidades están renovadas."
+        },
+        {
+          "q": "¿Necesito un boleto para entrar a Isla Tropicale?",
+          "a": "No se necesita un boleto aparte: el acceso está incluido para los pasajeros que llegan en un crucero de Carnival Corporation que hace escala en el puerto."
+        },
+        {
+          "q": "¿Es gratis Mahogany Beach para los pasajeros de cruceros?",
+          "a": "Mahogany Beach y sus tumbonas forman parte de la experiencia del puerto para los pasajeros que atracan allí. Algunas tumbonas premium, cabañas, deportes acuáticos y excursiones tienen costo."
+        },
+        {
+          "q": "¿Qué es el Mangrove Bay Pool & Swim-Up Bar?",
+          "a": "Es una de las amenidades renovadas de Isla Tropicale: un área de piscina con bar en el agua, abierta a los pasajeros de cruceros en el puerto."
+        },
+        {
+          "q": "¿Cómo llego de Isla Tropicale a West Bay Beach?",
+          "a": "Taxis, lanzaderas y excursiones organizadas salen del área de tours de la terminal hacia West Bay y West End; presupueste unas 30–40 minutos por trayecto."
+        }
+      ],
+      "relatedTitle": "Más guías de cruceros de Roatán",
+      "related": [
+        {
+          "slug": "roatan-cruise-ports",
+          "title": "Puertos de Cruceros de Roatán Comparados",
+          "desc": "Mahogany Bay (Isla Tropicale) vs el Port of Roatán en Coxen Hole: qué barco atraca dónde."
+        }
+      ]
+    }
   }
 }

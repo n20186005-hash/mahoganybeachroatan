@@ -3,7 +3,8 @@ import { routing } from './i18n/routing';
 
 export default createMiddleware({
   ...routing,
-  // 固定默认语言为 es：根路径始终进入 /es，不依据浏览器语言自动跳转
+  // Default entry point is now English (`/en`); `/es` and `/zh` remain fully accessible.
+  // We keep locale detection off so the root always falls back to the default locale.
   localeDetection: false,
 });
 

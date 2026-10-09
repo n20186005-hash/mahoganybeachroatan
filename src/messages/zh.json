@@ -399,7 +399,7 @@
     "title": "Mahogany Bay 邮轮码头 (Coxen Hole)",
     "subtitle": "Coxen Hole · 海湾群岛（Bay Islands）· 洪都拉斯",
     "rating": "4.7",
-    "reviewCount": "4,819",
+    "reviewCount": "4,834",
     "hours": "邮轮码头",
     "openMaps": "查看位置"
   },
@@ -415,7 +415,7 @@
   },
   "intro": {
     "title": "关于 Mahogany Bay 邮轮码头",
-    "overview": "欢迎来到 **Mahogany Bay Cruise Terminal**（中文通称 **桃花心木湾邮轮码头**，常简称为 **Mahogany Bay**）。它位于洪都拉斯 **海湾群岛省（Bay Islands）** 罗阿坦岛 **Coxen Hole（科克森霍尔）** 的中心地带，是该地区公认的核心邮轮门户，也是游客访问罗阿坦岛与加勒比海岸的重要起点。",
+    "overview": "欢迎来到 **Mahogany Bay Cruise Terminal**（中文通称 **桃花心木湾邮轮码头**）——现品牌名为 **Isla Tropicale**——嘉年华集团在罗阿坦岛的私人专属邮轮码头。它位于洪都拉斯 **海湾群岛省（Bay Islands）** 的 **Dixon Cove（迪克森湾）** 一带（Google 地图将该区域标注为 Coxen Hole）。它**并非**位于 Coxen Hole 镇中心，与镇上的 **Port of Roatán（罗阿坦港）** 是两个由不同运营方管理的独立码头，是嘉年华旗下品牌邮轮访问该岛与加勒比海岸的主要门户。",
     "description": "Mahogany Bay 邮轮码头位于洪都拉斯海湾群岛罗阿坦岛的 Coxen Hole（科克森霍尔），是一座面向美丽加勒比海岸的现代化邮轮码头，为来访罗阿坦岛及周边海湾群岛的邮轮乘客提供便捷的服务和完善的设施。",
     "nearby": "游览 **Mahogany Bay 邮轮码头** 时，游客可以轻松前往周边知名景点，例如 **西湾海滩（West Bay Beach）** 与 **西端村（West End Village）**，体验罗阿坦岛最受欢迎的浮潜、餐饮与当地风情。",
     "visitGuide": {
@@ -435,7 +435,8 @@
         "加勒比海通道：探索美丽加勒比海滩和珊瑚礁的完美起点。",
         "旅游服务：为游客提供资讯台和旅游安排服务。",
         "嘉年华集团专属：由嘉年华集团投资建设并管理的私人专属码头，主要停靠其旗下品牌邮轮。",
-        "神奇飞行沙滩椅 (Magical Flying Beach Chair)：独一无二的空中缆车，直接将乘客从购物区运送到专属的桃花心木海滩。"
+        "神奇飞行沙滩椅 (Magical Flying Beach Chair)：独一无二的空中缆车，直接将乘客从购物区运送到专属的桃花心木海滩。",
+        "已升级为 Isla Tropicale 品牌：嘉年华焕新的目的地现已配备海滩俱乐部、泳池与 Mangrove Bay Pool & Swim-Up Bar（红树林湾泳池水上吧），对邮轮乘客开放。"
       ]
     }
   },
@@ -493,9 +494,9 @@
     "plusCode": "Plus 代码",
     "plusCodeValue": "8GG3+W27 Coxen Hole, 洪都拉斯罗阿坦",
     "alias": "别称",
-    "aliasValue": "Isla Tropicale",
+    "aliasValue": "Isla Tropicale（现行品牌名）",
     "tipLabel": "提示：",
-    "addressTip": "在 Google 地图等导航软件上，该码头标注的官方地址为 Coxen Hole（科克森霍尔）、罗阿坦岛、海湾群岛省、洪都拉斯。请注意，罗阿坦主城 Coxen Hole 镇中心另设有一个 Town Center 邮轮港口，两者位置不同，请在导航时仔细核对，以免走错码头。"
+    "addressTip": "在 Google 地图等导航软件上，该码头标注的官方地址为 Coxen Hole（科克森霍尔）、罗阿坦岛、海湾群岛省、洪都拉斯；但 Mahogany Bay / Isla Tropicale 实际位于岛屿南侧的 **Dixon Cove（迪克森湾）** 一带，并非 Coxen Hole 镇中心。罗阿坦另一个邮轮码头 **Port of Roatán（罗阿坦港）** 才是位于 Coxen Hole 镇中心的那一个。两者由不同运营方管理，预订交通前请务必确认您的邮轮停靠的是哪一个码头。"
   },
   "hours": {
     "title": "开放时间",
@@ -595,59 +596,11 @@
     "showAllPhotos": "显示全部照片"
   },
   "reviews": {
-    "title": "游客评价",
-    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
-    "moreReviews": "在 Google Maps 查看更多评价",
-    "items": [
-      {
-        "name": "Michael Thompson",
-        "date": "1个月前",
-        "rating": 5,
-        "text": "优秀的邮轮码头，设施齐全。干净、组织良好，工作人员非常乐于助人。探索罗阿坦岛的绝佳起点。"
-      },
-      {
-        "name": "Sarah Jenkins",
-        "date": "2周前",
-        "rating": 5,
-        "text": "美丽的码头，加勒比海景色令人惊叹。易于导航，购物选择丰富。当地人友好热情。"
-      },
-      {
-        "name": "David Rodriguez",
-        "date": "3个月前",
-        "rating": 4,
-        "text": "整体来说不错的码头。可以增加更多座位区，但位置非常适合前往罗阿坦岛最美的海滩。"
-      },
-      {
-        "name": "Lisa Chen",
-        "date": "1周前",
-        "rating": 5,
-        "text": "现代化且高效的码头。资讯台在安排我们的岛上游览方面非常有帮助。强烈推荐参观附近的海滩。"
-      },
-      {
-        "name": "James Wilson",
-        "date": "2个月前",
-        "rating": 4,
-        "text": "不错的设施，设施很好。前往海滩的班车服务很方便。我们游览期间天气完美。"
-      },
-      {
-        "name": "Maria Santos",
-        "date": "3周前",
-        "rating": 5,
-        "text": "在 Mahogany Bay 的美妙体验！码头维护良好，加勒比海的氛围简直神奇。一定会再来。"
-      },
-      {
-        "name": "Robert Miller",
-        "date": "1个月前",
-        "rating": 4,
-        "text": "不错的邮轮码头。这里有一切你需要的东西。从码头看海景非常壮观。"
-      },
-      {
-        "name": "Jennifer Lee",
-        "date": "2周前",
-        "rating": 5,
-        "text": "很棒的码头！非常有组织且干净。当地供应商提供很棒的纪念品，食物也很美味。完美的加勒比海度假胜地。"
-      }
-    ]
+    "title": "游客评分",
+    "declaration": "本网站为独立旅游信息指南，与码头运营方无任何隶属关系。以下评分为 Google Maps 公开数据快照，出行前请以 Google 上的最新评价为准。",
+    "moreReviews": "在 Google Maps 阅读评价",
+    "ratingNote": "Google 评分 · 2026 年 10 月核对",
+    "snapshotLabel": "综合评分"
   },
   "mapSection": {
     "title": "位置与如何前往 Coxen Hole 的 Mahogany Bay",
@@ -876,13 +829,131 @@
         "description": "随着设施和服务不断改进，码头现在提供增强的乘客体验，包括信息服务、购物和旅游安排。"
       },
       {
-        "year": "未来愿景",
-        "title": "未来愿景：可持续旅游",
+        "year": "当下",
+        "title": "当下：Isla Tropicale 与可持续旅游",
         "plaque": "可持续发展（生态旅游）",
-        "description": "展望未来，码头旨在促进可持续旅游实践，同时保持其作为加勒比海顶级邮轮目的地的地位，平衡增长与环境保护。 嘉年华集团宣布了品牌升级计划，将更名为 'Isla Tropicale'，并新增游泳池、海滩俱乐部和水上酒吧等设施。"
+        "description": "该码头已升级品牌为 **Isla Tropicale**，成为嘉年华在罗阿坦焕新的目的地。海滩俱乐部、泳池以及 Mangrove Bay Pool & Swim-Up Bar（红树林湾泳池水上吧）等全新设施现已对邮轮乘客开放，同时码头持续在邮轮增长与珊瑚礁、海岸保护之间取得平衡。"
       }
     ],
     "guideTitle": "游客导览建议",
     "guideContent": "游客在参观时，可以先从**熟悉码头设施**开始；然后**参观资讯台**了解当地景点；接着**乘坐班车或出租车**探索罗阿坦岛美丽的海滩和珊瑚礁；最后**返回码头**购买纪念品并享用当地美食，然后准备离港。"
+  },
+  "topicPages": {
+    "roatan-cruise-ports": {
+      "metaTitle": "罗阿坦邮轮港口对比：Mahogany Bay（Isla Tropicale）与 Port of Roatán",
+      "metaDescription": "罗阿坦有两个独立的邮轮码头。了解 Mahogany Bay（Isla Tropicale）与 Coxen Hole 的 Port of Roatán 的区别——各邮轮公司停靠哪里、距离远近，以及如何避免走错码头。",
+      "h1": "罗阿坦邮轮港口对比：Mahogany Bay（Isla Tropicale）vs Port of Roatán",
+      "intro": "罗阿坦岛有两个不同的邮轮码头，混淆它们是邮轮乘客最常犯的错误。本指南说明 Mahogany Bay（现品牌名 Isla Tropicale）与 Coxen Hole 的 Port of Roatán 的区别，帮助您抵达正确的码头。",
+      "sections": [
+        {
+          "heading": "两个码头，并非一个",
+          "body": "Mahogany Bay 邮轮码头（Isla Tropicale）是嘉年华集团在罗阿坦岛南侧 Dixon Cove（迪克森湾）一带的私人专属邮轮港。Port of Roatán（又称 Coxen Hole Cruise Port）是位于 Coxen Hole 镇中心的另一个由公共管理的码头，在岛屿东北侧。两者由不同运营方管理，相距数公里。"
+        },
+        {
+          "heading": "各邮轮公司停靠哪里",
+          "body": "Mahogany Bay / Isla Tropicale 主要服务嘉年华集团旗下品牌——嘉年华邮轮、荷美邮轮与公主邮轮。Coxen Hole 的 Port of Roatán 则接待绝大多数其他公司，包括皇家加勒比、诺唯真、MSC、Celebrity 与迪士尼。请务必核对您所乘邮轮的行程，因为指定码头可能变动。"
+        },
+        {
+          "heading": "距离与位置",
+          "body": "Port of Roatán 紧邻 Coxen Hole 镇中心，距胡安·曼努埃尔·加尔维斯国际机场（RTB）约 10–15 分钟车程。Mahogany Bay / Isla Tropicale 位于更南侧的 Dixon Cove，距机场约 20–30 分钟（视交通情况）。两者都在罗阿坦岛，但位于岛屿两侧。"
+        },
+        {
+          "heading": "海滩与设施",
+          "body": "Mahogany Bay 拥有专属私人海滩（Mahogany Beach）、购物村落、泳池、海滩俱乐部与神奇飞行沙滩椅缆车，全部在封闭港区内。Port of Roatán 码头较小且没有专属海滩——游客需乘坐出租车、班车或水上出租车前往 West Bay 或 West End 享受沙滩与浮潜。"
+        },
+        {
+          "heading": "如何选择及往返两港",
+          "body": "实际上您无法选择码头——由您的邮轮决定。若想探索港口之外，出租车与旅行社可将两个码头连接到 West Bay、West End 及全岛各处。若您的邮轮停靠 Mahogany Bay 但想去镇中心港区，请预留约 15–20 分钟接驳时间。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Mahogany Bay 和 Port of Roatán 是同一个地方吗？",
+          "a": "不是。它们是罗阿坦岛上由不同运营方管理的两个独立邮轮码头。Mahogany Bay（Isla Tropicale）是嘉年华在 Dixon Cove 的私人港；Port of Roatán 位于 Coxen Hole 镇中心。"
+        },
+        {
+          "q": "嘉年华在罗阿坦使用哪个码头？",
+          "a": "嘉年华集团旗下品牌——嘉年华、荷美与公主——停靠 Mahogany Bay，即现品牌名 Isla Tropicale。"
+        },
+        {
+          "q": "皇家加勒比、诺唯真或 MSC 使用哪个码头？",
+          "a": "这些以及绝大多数非嘉年华邮轮通常停靠 Coxen Hole 的 Port of Roatán，而非 Mahogany Bay。"
+        },
+        {
+          "q": "两个码头相距多远？",
+          "a": "它们位于罗阿坦岛两侧，车程约 15–30 分钟，视交通与具体路线而定。"
+        },
+        {
+          "q": "如果我停靠 Coxen Hole，能否去 Mahogany Bay 海滩？",
+          "a": "可以。出租车与有组织的岸上行程可将您从 Port of Roatán 送往 Mahogany Bay 及其他海滩，但 Mahogany Beach 的设施主要面向停靠该港的邮轮乘客。"
+        }
+      ],
+      "relatedTitle": "更多罗阿坦邮轮指南",
+      "related": [
+        {
+          "slug": "isla-tropicale-roatan",
+          "title": "Isla Tropicale 罗阿坦：嘉年华的 Mahogany Bay 港",
+          "desc": "焕新港口有哪些新内容——海滩俱乐部、泳池、水上吧与缆车。"
+        }
+      ]
+    },
+    "isla-tropicale-roatan": {
+      "metaTitle": "Isla Tropicale 罗阿坦：嘉年华的 Mahogany Bay 邮轮港与最新看点",
+      "metaDescription": "Isla Tropicale 是嘉年华在罗阿坦焕新的 Mahogany Bay 邮轮港。了解全新海滩俱乐部、泳池、水上吧、飞行沙滩椅，以及如何前往海滩。",
+      "h1": "Isla Tropicale 罗阿坦：嘉年华的 Mahogany Bay 邮轮港",
+      "intro": "Isla Tropicale 是 Mahogany Bay 邮轮码头的新名称，即嘉年华集团在罗阿坦岛南侧 Dixon Cove（迪克森湾）的私人专属邮轮目的地。以下是邮轮乘客在焕新港口可期待的内容。",
+      "sections": [
+        {
+          "heading": "从 Mahogany Bay 到 Isla Tropicale",
+          "body": "嘉年华集团将其罗阿坦私人港重新命名为 Isla Tropicale。码头、海滩及周边设施是同一个实体——只有名称与一组焕新设施是新的。您在旧版地图与船票上可能仍会看到「Mahogany Bay」。"
+        },
+        {
+          "heading": "港口内有什么",
+          "body": "Isla Tropicale 以加勒比风格的购物餐饮村落、Mahogany Beach、泳池、海滩俱乐部以及 Mangrove Bay Pool & Swim-Up Bar（红树林湾泳池水上吧）为核心。其氛围是一个受控的度假村式邮轮目的地，专为单日到访设计。"
+        },
+        {
+          "heading": "神奇飞行沙滩椅",
+          "body": "标志性项目是神奇飞行沙滩椅（Magical Flying Beach Chair）——一架露天缆车，将乘客从购物村落送到 Mahogany Beach。它对邮轮乘客免费开放，并可一览泻湖与珊瑚礁的风景。"
+        },
+        {
+          "heading": "如何前往海滩",
+          "body": "下船后您可乘坐飞行沙滩椅，或沿标识步道前往 Mahogany Beach。海滩、躺椅与泻湖游泳区主要面向邮轮乘客；前往 West Bay 或 West End 的行程从码头旅游区出发。"
+        },
+        {
+          "heading": "Isla Tropicale 与罗阿坦岛其余地区",
+          "body": "由于 Isla Tropicale 是封闭的私人港，离开它意味着预订出租车、班车或有组织的行程前往 Coxen Hole、West Bay 或 West End。若想探索港口大门之外，请预留额外接驳时间。"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Isla Tropicale 与 Mahogany Bay 是同一个地方吗？",
+          "a": "是的。Isla Tropicale 是罗阿坦 Mahogany Bay 邮轮码头的新品牌名。位置与设施相同；名称与部分设施为焕新内容。"
+        },
+        {
+          "q": "进入 Isla Tropicale 需要门票吗？",
+          "a": "无需单独门票——在停靠该港的嘉年华集团邮轮上到港的乘客已包含通行权限。"
+        },
+        {
+          "q": "Mahogany Beach 对邮轮乘客免费吗？",
+          "a": "Mahogany Beach 及其躺椅是停靠该港乘客邮轮体验的一部分。部分高级躺椅、茅草亭、水上运动与行程需另行付费。"
+        },
+        {
+          "q": "Mangrove Bay Pool & Swim-Up Bar 是什么？",
+          "a": "它是 Isla Tropicale 的焕新设施之一——一个带水上吧的泳池区域，对港口的邮轮乘客开放。"
+        },
+        {
+          "q": "如何从 Isla Tropicale 前往 West Bay 海滩？",
+          "a": "出租车、班车与有组织的岸上行程从码头旅游区前往 West Bay 与 West End；单程请预留约 30–40 分钟。"
+        }
+      ],
+      "relatedTitle": "更多罗阿坦邮轮指南",
+      "related": [
+        {
+          "slug": "roatan-cruise-ports",
+          "title": "罗阿坦邮轮港口对比",
+          "desc": "Mahogany Bay（Isla Tropicale）vs Coxen Hole 的 Port of Roatán——各邮轮停靠哪里。"
+        }
+      ]
+    }
   }
 }

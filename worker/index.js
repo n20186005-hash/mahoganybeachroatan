@@ -195,9 +195,9 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
-    // 默认语言：es —— 根路径统一跳转到 /es
+    // 默认语言：en —— 根路径统一跳转到 /en（英语为首要受众；/es 与 /zh 仍可正常访问，排名不受影响）
     if (url.pathname === '/') {
-      return Response.redirect(`${url.origin}/es`, 308);
+      return Response.redirect(`${url.origin}/en`, 308);
     }
 
     // 天气接口：边缘代理 + 缓存

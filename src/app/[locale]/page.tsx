@@ -22,6 +22,7 @@ import Reviews from '@/components/Reviews';
 import FaqSection from '@/components/FaqSection';
 import MapEmbed from '@/components/MapEmbed';
 import SourcesSection from '@/components/SourcesSection';
+import TopicLinks from '@/components/TopicLinks';
 import Footer from '@/components/Footer';
 import {
   BASE_URL,
@@ -58,10 +59,10 @@ export async function generateMetadata({
     alternates: {
       canonical: selfUrl,
       languages: {
+        en: enUrl,
         es: esUrl,
         zh: zhUrl,
-        en: enUrl,
-        'x-default': esUrl,
+        'x-default': enUrl,
       } as Record<string, string>,
     },
     openGraph: {
@@ -127,6 +128,7 @@ export default async function HomePage({
         <Reviews />
         <FaqSection />
         <MapEmbed />
+        <TopicLinks />
         <SourcesSection />
       </main>
       <Footer />
